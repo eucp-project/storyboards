@@ -3,7 +3,7 @@ export default {
   target: 'static',
   ssr: false,
   router: {
-    base: '/wp4'
+    base: '/usecases'
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
