@@ -4,10 +4,14 @@
     <!-- Usecase cards -->
     <div class="flex no-wrap text-left">
       <h4>
+        <NuxtLink :to="card.route">
         {{ card.title }}
+        </NuxtLink>
       </h4>
       <div class="m-2 bg-white rounded">
-        <img :src="card.image" class="rounded object-cover w-36 h-24 mx-auto">
+        <NuxtLink :to="card.route">
+        <img :src="card.image" class="object-contain w-40 h-30 mx-auto">
+        </NuxtLink>
       </div>
     </div>
   </div>
