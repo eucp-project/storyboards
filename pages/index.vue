@@ -7,26 +7,21 @@
 
     <div class="flex overflow-auto">
       <!-- usecases -->
-      <div class="m-2 bg-white rounded">
+      <div class="m-2 rounded">
         <!-- category 1 -->
         <h3 class="text-2xl">
           Category 1
         </h3>
-        <div class="flex text-left">
+        <div class="flex text-left shadow-xl">
           <UseCaseCard
-            v-for="usecase in usecases.items"
-            :key="usecase.id"
-            :card="usecase"
+            :key="usecases.case_0_id"
+            :panel="usecases.case_0_panel"
           />
         </div>
-        <!-- category 2 -->
-        <h3 class="text-2xl">
-          Category 2
-        </h3>
       </div>
 
       <!-- Tags -->
-      <div class="m-2 bg-white rounded">
+      <div class="m-2 rounded">
         <h3>
           Tags
         </h3>
@@ -36,18 +31,15 @@
 </template>
 
 <script>
-import Banner from '~/components/Banner.vue'
-import UseCaseCard from '~/components/UseCaseCard.vue'
 export default {
-  components: { Banner, UseCaseCard },
-  async mounted () {
-    this.usecases = await this.$content('usecaseItems').fetch()
-  },
   data () {
     return {
       usecases: {},
       error: false
     }
+  },
+  async mounted () {
+    this.usecases = await this.$content('usecaseItems').fetch()
   }
 }
 </script>
