@@ -19,13 +19,6 @@
           />
         </div>
       </div>
-
-      <!-- Tags -->
-      <div class="m-2 rounded">
-        <h3>
-          Tags
-        </h3>
-      </div>
     </div>
   </div>
 </template>

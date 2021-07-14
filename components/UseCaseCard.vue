@@ -10,9 +10,9 @@
         <h4>
           {{ card.title }}
         </h4>
-        <div class="m-2 bg-white rounded">
-          <img :src="card.image" class="object-contain w-40 h-30 mx-auto">
-        </div>
+        <VueperSlides>
+          <VueperSlide v-for="slide in panel" :key="slide.id" :img="slide.image" />
+        </VueperSlides>
       </NuxtLink>
     </div>
   </div>
