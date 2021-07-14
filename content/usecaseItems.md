@@ -1,6 +1,6 @@
 ---
-case_0_id: 0
-case_0_panel:
+example_usecase_id: 0
+example_usecase:
   # - title: 
   #  tooltip: Home
   #  route: /usecase_0  

@@ -14,8 +14,8 @@
         </h3>
         <div class="flex text-left shadow-xl">
           <UseCaseCard
-            :key="usecases.case_0_id"
-            :panel="usecases.case_0_panel"
+            :key="usecases.example_usecase_id"
+            :panel="usecases.example_usecase"
           />
         </div>
       </div>
