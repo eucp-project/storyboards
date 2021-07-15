@@ -9,15 +9,18 @@
       <!-- usecases -->
       <div class="m-2 rounded">
         <!-- category 1 -->
-        <h3 class="text-2xl">
+        <h3 class="flex no-wrap text-2xl">
           Category 1
         </h3>
-        <div class="flex text-left shadow-xl">
+        <div class="overflow-auto text-left shadow-xl">
           <UseCaseCard
             :key="usecases.example_usecase_id"
             :panel="usecases.example_usecase"
+            :title="usecases.example_usecase_name"
+            :description="usecases.example_usecase_description"
           />
         </div>
+        <!-- category 2 -->
       </div>
     </div>
   </div>
