@@ -5,14 +5,14 @@
       <Banner />
     </div>
 
-    <div class="flex overflow-auto">
+    <div class="flex flex-col overflow-auto w-screen h-screen p-2">
       <!-- usecases -->
       <div class="m-2 rounded">
         <!-- category 1 -->
-        <h3 class="flex no-wrap text-2xl">
+        <h3 class="text-2xl p-3 m-3">
           Category 1
         </h3>
-        <div class="overflow-auto text-left shadow-xl">
+        <div class="overflow-auto text-left w-11/12 mx-auto shadow-xl bg-white m-2">
           <UseCaseCard
             :key="usecases.example_usecase_id"
             :panel="usecases.example_usecase"
