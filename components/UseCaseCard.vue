@@ -1,11 +1,11 @@
 <template>
   <div class="flex flex-row overflow-auto p-4 shadow-xl">
     <!-- Usecase cards -->
-    <div class="no-wrap text-left overflow-auto">
-      <h4 class="text-2xl m-8">
+    <div class="no-wrap text-left">
+      <h4 class="text-2xl m-2">
         {{ title }}
       </h4>
-      <p class="text-left m-8">
+      <p class="text-left m-2">
         {{ description }}
       </p>
     </div>
@@ -14,14 +14,13 @@
         fractions
         progress
         fixed-height="300px"
-        :slide-ratio="1 / 3"
+        :slide-ratio="1 / 4"
         arrows-outside
         bullets-outside
       >
         <vueper-slide
           v-for="card in panel"
           :key="card.id"
-          :title="card.title"
           :link="card.route"
           :image="card.image"
         />
@@ -49,8 +48,6 @@ export default {
       default: null,
       required: false
     }
-  },
-  mounted () {
   }
 }
 </script>

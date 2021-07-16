@@ -2,7 +2,9 @@
   <div class="flex flex-col w-screen h-screen bg-gray-200 p-2">
     <!-- Header -->
     <div class="flex p-4">
-      <img src="~/static/eucp_logo.png" alt="EUCP Logo">
+      <NuxtLink :to="`/`">
+        <img src="~/static/eucp_logo.png" alt="EUCP Logo">
+      </NuxtLink>
       <h1 class="text-2xl">
         EUCP Example use case: {{ title }}
       </h1>
