@@ -13,10 +13,12 @@
       <vueper-slides
         fractions
         progress
+        fade
+        :slide-ratio="1 / 1"
         fixed-height="300px"
-        :slide-ratio="1 / 4"
         arrows-outside
         bullets-outside
+        slide-image-inside
       >
         <vueper-slide
           v-for="card in panel"
@@ -53,6 +55,11 @@ export default {
 </script>
 
 <style>
+.vueperslide__image {
+  object-fit: contain;
+  height: 100%;
+  width: auto;
+}
 .vueperslide__title {
   font-size: 1.5em;
   opacity: 0.75;
