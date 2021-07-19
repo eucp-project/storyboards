@@ -56,8 +56,9 @@ export default {
 
 <style>
 .vueperslide__image {
-  object-fit: contain;
-  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
   width: auto;
 }
 .vueperslide__title {
