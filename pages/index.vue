@@ -14,10 +14,10 @@
         </h3>
         <div class="text-left w-1/3 shadow-xl bg-white m-2">
           <UseCaseCard
-            :key="usecases.example_usecase_id"
-            :panel="usecases.example_usecase"
-            :title="usecases.example_usecase_name"
-            :description="usecases.example_usecase_description"
+            :key="usecaseItems.example_usecase_id"
+            :title="usecaseItems.example_usecase_name"
+            :description="usecaseItems.example_usecase_description"
+            :usecase="usecase0"
           />
         </div>
         <!-- category 2 -->
@@ -30,12 +30,14 @@
 export default {
   data () {
     return {
-      usecases: {},
+      usecaseItems: {},
+      usecase0: {},
       error: false
     }
   },
   async mounted () {
-    this.usecases = await this.$content('usecaseItems').fetch()
+    this.usecaseItems = await this.$content('usecaseItems').fetch()
+    this.usecase0 = await this.$content('usecase_0').sortBy('slug', 'asc').fetch()
   }
 }
 </script>

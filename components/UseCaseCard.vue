@@ -21,9 +21,9 @@
         slide-image-inside
       >
         <vueper-slide
-          v-for="card in panel"
+          v-for="card in usecase"
           :key="card.id"
-          :link="card.route"
+          :link="card.path"
           :image="card.image"
         />
       </vueper-slides>
@@ -35,11 +35,6 @@
 
 export default {
   props: {
-    panel: {
-      type: Array,
-      default: null,
-      required: false
-    },
     title: {
       type: String,
       default: null,
@@ -47,6 +42,11 @@ export default {
     },
     description: {
       type: String,
+      default: null,
+      required: false
+    },
+    usecase: {
+      type: Array,
       default: null,
       required: false
     }

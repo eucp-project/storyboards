@@ -1,6 +1,6 @@
 ---
-headline: Data used in this study
 image: usecase_0/img_2.png
+headline: Data used in this study
 ---
 
 Data from different source is used.
