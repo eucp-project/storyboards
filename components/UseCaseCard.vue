@@ -2,12 +2,14 @@
   <div class="flex flex-row overflow-auto p-4 shadow-xl">
     <!-- Usecase cards -->
     <div class="no-wrap text-left">
-      <h4 class="text-2xl m-2">
-        {{ title }}
-      </h4>
-      <p class="text-left m-2">
-        {{ description }}
-      </p>
+      <NuxtLink v-if="usecase.length > 0" :to="usecase[0].path">
+        <h4 class="text-2xl m-2">
+          {{ title }}
+        </h4>
+        <p class="text-left m-2">
+          {{ description }}
+        </p>
+      </NuxtLink>
     </div>
     <div class="container mx-auto w-1/2 m-3">
       <vueper-slides
@@ -20,7 +22,7 @@
         slide-image-inside
       >
         <vueper-slide
-          v-for="card in usecase"
+          v-for="card of usecase"
           :key="card.id"
           :link="card.path"
           :image="card.image"
@@ -44,11 +46,7 @@ export default {
       default: null,
       required: false
     },
-    usecase: {
-      type: Array,
-      default: null,
-      required: false
-    }
+    usecase: []
   }
 }
 </script>
