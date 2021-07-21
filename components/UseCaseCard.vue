@@ -15,7 +15,6 @@
         progress
         fade
         :slide-ratio="1 / 1"
-        fixed-height="300px"
         arrows-outside
         bullets-outside
         slide-image-inside
@@ -58,14 +57,7 @@ export default {
 .vueperslide__image {
   background-size: contain;
   background-repeat: no-repeat;
-  height: 300px;
+  height: auto;
   width: auto;
-}
-.vueperslide__title {
-  font-size: 1.5em;
-  opacity: 0.75;
-  background-color: rgb(255, 255, 255);
-  border-radius: 12px;
-  padding: 12px;
 }
 </style>
