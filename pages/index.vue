@@ -31,7 +31,7 @@ export default {
   data () {
     return {
       usecaseItems: {},
-      usecase0: {},
+      usecase0: [],
       error: false
     }
   },

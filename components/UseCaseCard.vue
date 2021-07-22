@@ -46,7 +46,11 @@ export default {
       default: null,
       required: false
     },
-    usecase: []
+    usecase: {
+      type: Array,
+      default: () => [],
+      required: false
+    }
   }
 }
 </script>
