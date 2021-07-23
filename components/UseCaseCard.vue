@@ -1,19 +1,33 @@
 <template>
-  <div class="flex p-4 shadow-xl">
+  <div class="flex flex-row overflow-auto p-4 shadow-xl">
     <!-- Usecase cards -->
-    <div
-      v-for="card in panel"
-      :key="card.id"
-      class="flex no-wrap text-left"
-    >
-      <NuxtLink :to="card.route">
-        <h4>
-          {{ card.title }}
+    <div class="no-wrap text-left">
+      <NuxtLink v-if="usecase.length > 0" :to="usecase[0].path">
+        <h4 class="text-2xl m-2">
+          {{ title }}
         </h4>
-        <div class="m-2 bg-white rounded">
-          <img :src="card.image" class="object-contain w-40 h-30 mx-auto">
-        </div>
+        <p class="text-left m-2">
+          {{ description }}
+        </p>
       </NuxtLink>
+    </div>
+    <div class="container mx-auto w-1/2 m-3">
+      <vueper-slides
+        fractions
+        progress
+        fade
+        :slide-ratio="1 / 1"
+        arrows-outside
+        bullets-outside
+        slide-image-inside
+      >
+        <vueper-slide
+          v-for="card of usecase"
+          :key="card.id"
+          :link="card.path"
+          :image="card.image"
+        />
+      </vueper-slides>
     </div>
   </div>
 </template>
@@ -22,13 +36,30 @@
 
 export default {
   props: {
-    panel: {
-      type: Array,
+    title: {
+      type: String,
       default: null,
       required: false
+    },
+    description: {
+      type: String,
+      default: null,
+      required: false
+    },
+    usecase: {
+      type: Array,
+      default: () => [],
+      required: false
     }
-  },
-  mounted () {
   }
 }
 </script>
+
+<style>
+.vueperslide__image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: auto;
+  width: auto;
+}
+</style>

@@ -5,26 +5,22 @@
       <Banner />
     </div>
 
-    <div class="flex overflow-auto">
+    <div class="flex flex-col overflow-auto w-screen h-screen p-2">
       <!-- usecases -->
       <div class="m-2 rounded">
         <!-- category 1 -->
-        <h3 class="text-2xl">
+        <h3 class="text-2xl p-2 m-2">
           Category 1
         </h3>
-        <div class="flex text-left shadow-xl">
+        <div class="text-left w-1/3 shadow-xl bg-white m-2">
           <UseCaseCard
-            :key="usecases.example_usecase_id"
-            :panel="usecases.example_usecase"
+            :key="usecaseItems.example_usecase_id"
+            :title="usecaseItems.example_usecase_name"
+            :description="usecaseItems.example_usecase_description"
+            :usecase="usecase0"
           />
         </div>
-      </div>
-
-      <!-- Tags -->
-      <div class="m-2 rounded">
-        <h3>
-          Tags
-        </h3>
+        <!-- category 2 -->
       </div>
     </div>
   </div>
@@ -34,12 +30,14 @@
 export default {
   data () {
     return {
-      usecases: {},
+      usecaseItems: {},
+      usecase0: [],
       error: false
     }
   },
   async mounted () {
-    this.usecases = await this.$content('usecaseItems').fetch()
+    this.usecaseItems = await this.$content('usecaseItems').fetch()
+    this.usecase0 = await this.$content('usecase_0').sortBy('slug', 'asc').fetch()
   }
 }
 </script>
