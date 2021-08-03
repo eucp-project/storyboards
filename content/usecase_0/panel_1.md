@@ -1,6 +1,6 @@
 ---
 image: usecase_0/img_1.png
-headline: Conceptual overview of the use case
+headline: Introduction and Aim
 ---
 
 # Example use case
