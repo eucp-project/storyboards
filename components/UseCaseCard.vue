@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-row overflow-auto p-4 shadow-xl">
     <!-- Usecase cards -->
-    <div class="no-wrap text-left">
+    <div class="no-wrap text-left w-1/2">
       <NuxtLink v-if="usecase.length > 0" :to="usecase[0].path">
         <h4 class="text-2xl m-2">
           {{ title }}
@@ -17,7 +17,6 @@
         progress
         fade
         :slide-ratio="1 / 1"
-        arrows-outside
         bullets-outside
         slide-image-inside
       >
