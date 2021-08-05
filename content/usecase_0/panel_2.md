@@ -1,12 +1,12 @@
 ---
 image: usecase_0/img_2.png
-headline: Data used in this study
+headline: Data and Methods
 ---
+## Data and Methods
 
-Data from different source is used.
+Datasets used in this project are:
 
-We chose for these datasets because ...
+- NCAR Decadal Prediction Large Ensemble (DPLE): Forecasts that were run by explicitly prescribing the contemporaneous state of the climate system at the start of the simulation annually.
+- Observational reference: JRA-55 for monthly mean temperature and GPCCv2018 for precipitation.
 
-Please see the [original description of the data types](https://en.wikipedia.org/wiki/Data).
-
-The data themselves can be found in our official [data repository](https://zenodo.org/)
+Methodology is described in the figure.

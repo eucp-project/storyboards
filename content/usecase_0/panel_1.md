@@ -11,7 +11,3 @@ The aim is to assess the forecast quality in predicting the evolution of multi-y
 
 ## Wheat harvest months
 The harvested month is retrieved from the MIRCA2000 dataset. For each grid box, the forecast quality evaluation of initialized decadal prediction is carried-out for the months preceding the harvest of wheat on a global spatial scale and therefore the presented results in this evaluation will correspond to different times of the year for different regions.
-
-## More information
-
-Detailed information is available in the [reference paper](https://www.nature.com/articles/s41612-021-00189-4).
