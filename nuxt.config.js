@@ -3,7 +3,8 @@ export default {
   target: 'static',
   ssr: false,
   router: {
-    base: '/usecases/'
+    base: '/usecases/',
+    middleware: 'usecases-dynamic-routes'
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
