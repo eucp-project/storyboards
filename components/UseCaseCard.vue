@@ -23,9 +23,13 @@
         <vueper-slide
           v-for="card of usecase"
           :key="card.id"
-          :link="card.path"
-          :image="card.image"
-        />
+        >
+          <template #content>
+            <NuxtLink :to="card.path">
+              <img :src="card.image" class="object-contain w-auto h-full max-w-full max-h-full mx-auto">
+            </NuxtLink>
+          </template>
+        </vueper-slide>
       </vueper-slides>
     </div>
   </div>
@@ -53,12 +57,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.vueperslide__image {
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: auto;
-  width: auto;
-}
-</style>
