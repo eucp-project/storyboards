@@ -17,8 +17,8 @@
         progress
         fade
         :slide-ratio="1 / 1"
-        bullets-outside
         slide-image-inside
+        :arrows="false"
       >
         <vueper-slide
           v-for="card of usecase"

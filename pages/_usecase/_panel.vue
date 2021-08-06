@@ -8,6 +8,7 @@
       <h1 class="text-2xl">
         EUCP Example use case: {{ title }}
       </h1>
+      <h2></h2>
     </div>
 
     <!-- Panels overview bar -->

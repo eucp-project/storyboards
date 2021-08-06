@@ -1,6 +1,6 @@
 ---
 image: usecase_0/img_5.png
-headline: Decadal prediction for wheat sector
+headline: "Decadal prediction for wheat sector: Map"
 ---
 ## Decadal prediction for wheat sector
 
