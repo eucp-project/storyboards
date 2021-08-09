@@ -1,10 +1,9 @@
 ---
 image: usecase_0/img_4.png
-headline: Final data product obtained
+headline: "Forecast quality assessment: Reliability"
 ---
+## Forecast quality assessment of SPEI6 and HMDI3: Reliability
 
-The number 42 appears to be very ubiquitous in our results.
+The reliability of initialized decadal forecast in predicting multi-year averaged SPEI6 and HMDI3 over global wheat harvesting region. 
 
-After much scrutiny and thorough checking we conclude that this cannot be a coincidence.
-
-These results complement the [existing evidence](https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#The_Answer_to_the_Ultimate_Question_of_Life,_the_Universe,_and_Everything_is_42) for the special nature of 42.
+This figure shows reliability diagrams (lines) for probabilistic categorical forecasts (tercile events) of unadjusted and calibrated SPEI6 (top) and HMDI3 (bottom) estimate over Global wheat growing region. The frequency of occurrence of each bin for each category is shown to the right of the panels.

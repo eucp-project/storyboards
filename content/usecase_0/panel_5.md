@@ -1,10 +1,11 @@
 ---
-image: usecase_0/img_5.jpg
-headline: Key policy message
+image: usecase_0/img_5.png
+headline: "Decadal prediction: Map"
 ---
+## Decadal prediction for wheat sector
 
-- Don't panic
-- Always know where your towel is
-- FAIR and open FTW
+An illustration of a potential climate service product for the wheat sector based on categorical events. 
 
-image source: [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+This figure shows high probability of dry conditions (below-normal category of SPEI6) and heat stress events (above-normal category of HMDI3) over most of the wheat growing regions for the forecast years 2015-2019.
+
+Multi-year probabilistic calibrated forecast (a, b) and observed (c, d) most likely tercile category of SPEI6 (left) and HMDI3 (right) for the year 2014–2018 over the wheat harvesting regions that presents positive FRPSS values.
