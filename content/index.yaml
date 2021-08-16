@@ -1,2 +1,9 @@
-usecase_0: Multi-year prediction of drought and heat stress in the wheat sector
-usecase_1: Estimating regionalized hydrological impacts of climate change over Europe
+usecase_0:
+  usecase_id: 0
+  usecase_name: Multi-year prediction of drought and heat stress in the wheat sector
+  usecase_description: B. Solaraju-Murali, et al. Barcelona Supercomputing Center.
+
+usecase_1:
+  usecase_id: 1
+  usecase_name: Physical storylines of future European drought events
+  usecase_description: K. van der Wiel, et al. Royal Netherlands Meteorological Institute (KNMI).
