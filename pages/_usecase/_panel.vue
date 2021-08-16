@@ -41,7 +41,7 @@ export default {
     const panel = await $content(params.usecase, params.panel)
       .fetch()
     const index = await $content('index').fetch()
-    const title = index[params.usecase]
+    const title = index[params.usecase].usecase_name
     return {
       usecase,
       panel,
