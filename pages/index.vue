@@ -10,7 +10,7 @@
       <div class="m-2 rounded">
         <!-- category 1 -->
         <h3 class="text-2xl p-2 m-2">
-          Category 1
+          Application of EUCP innovations (WP4)
         </h3>
         <div class="text-left w-1/3 shadow-xl bg-white m-2">
           <UseCaseCard
