@@ -9,7 +9,7 @@
       <!-- usecases -->
       <div class="m-2 rounded">
         <!-- category 0 -->
-        <h3 class="text-2xl p-2 m-2">
+        <!-- <h3 class="text-2xl p-2 m-2">
           {{ item0.category }}
         </h3>
         <div class="text-left w-1/3 shadow-xl bg-white m-2">
@@ -19,9 +19,9 @@
             :description="item0.usecase_description"
             :usecase="usecase0"
           />
-        </div>
+        </div> -->
         <!-- category 1 -->
-        <h3 class="text-2xl p-2 m-2">
+        <!-- <h3 class="text-2xl p-2 m-2">
           {{ item1.category }}
         </h3>
         <div class="text-left w-1/3 shadow-xl bg-white m-2">
@@ -31,6 +31,20 @@
             :description="item1.usecase_description"
             :usecase="usecase1"
           />
+        </div> -->
+        <!-- category 2 -->
+        <div v-for="usecase in usecaseItems.usecases" :key="usecase">
+          <h3 class="text-2xl p-2 m-2">
+            {{ usecase.category }}
+          </h3>
+          <div class="text-left w-1/3 shadow-xl bg-white m-2">
+            <UseCaseCard
+              :key="usecase.id"
+              :title="usecase.name"
+              :description="usecase.description"
+              :usecase="usecase_data"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -42,19 +56,13 @@ export default {
   data () {
     return {
       usecaseItems: {},
-      item0: {},
-      usecase0: [],
-      item1: {},
-      usecase1: [],
+      usecase_data: [],
       error: false
     }
   },
   async mounted () {
     this.usecaseItems = await this.$content('index').fetch()
-    this.item0 = this.usecaseItems.usecase_0
-    this.usecase0 = await this.$content('usecase_0').sortBy('slug', 'asc').fetch()
-    this.item1 = this.usecaseItems.usecase_1
-    this.usecase1 = await this.$content('usecase_1').sortBy('slug', 'asc').fetch()
+    this.usecase_data = await this.$content('usecase_1').sortBy('slug', 'asc').fetch()
   }
 }
 </script>

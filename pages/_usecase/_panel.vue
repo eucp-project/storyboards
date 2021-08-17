@@ -8,7 +8,6 @@
       <h1 class="text-2xl">
         EUCP Example use case: {{ title }}
       </h1>
-      <h2></h2>
     </div>
 
     <!-- Panels overview bar -->
@@ -41,7 +40,7 @@ export default {
     const panel = await $content(params.usecase, params.panel)
       .fetch()
     const index = await $content('index').fetch()
-    const title = index[params.usecase].usecase_name
+    const title = index.usecases[params.usecase].name
     return {
       usecase,
       panel,
