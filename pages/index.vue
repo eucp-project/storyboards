@@ -10,7 +10,7 @@
       <div class="m-2 rounded">
         <!-- category 0 -->
         <h3 class="text-2xl p-2 m-2">
-          Application of EUCP innovations (WP4)
+          {{ item0.category }}
         </h3>
         <div class="text-left w-1/3 shadow-xl bg-white m-2">
           <UseCaseCard
@@ -22,7 +22,7 @@
         </div>
         <!-- category 1 -->
         <h3 class="text-2xl p-2 m-2">
-          Extracting information from large ensembles (WP2)
+          {{ item1.category }}
         </h3>
         <div class="text-left w-1/3 shadow-xl bg-white m-2">
           <UseCaseCard
