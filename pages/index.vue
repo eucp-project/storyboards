@@ -8,15 +8,15 @@
     <div class="flex flex-col overflow-auto w-screen h-screen p-2">
       <!-- usecases -->
       <div class="m-2 rounded">
-        <div v-for="usecase in usecaseItems.usecases" :key="usecase">
+        <div v-for="(item, index) in usecaseItems.usecases" :key="index">
           <h3 class="text-2xl p-2 m-2">
-            {{ usecase.category }}
+            {{ item.category }}
           </h3>
           <div class="text-left w-1/3 shadow-xl bg-white m-2">
             <UseCaseCard
-              :key="usecase.id"
-              :title="usecase.name"
-              :description="usecase.description"
+              :key="item.id"
+              :title="item.name"
+              :description="item.description"
               :usecase="usecase_data"
             />
           </div>
