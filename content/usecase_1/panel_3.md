@@ -5,7 +5,7 @@ headline: Proposed methodology
 
 ## Proposed methodology
 
-Two steps process:
+Two step process:
 
 - Select simulated events like the observed event: 'analogues'
 - Compare the analogues in present and future climates
