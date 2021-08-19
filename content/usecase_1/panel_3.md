@@ -16,5 +16,5 @@ To verify the quality of the results, we have to consider:
 - Are there analogues that resemble the observed event?
 - Does this provide robust and reliable climate change information?
 
-In the remainder of this storyboard we provide a proof-of-concept, creating
-storylines of future European drought events like 2018.
+In the remainder of this storyboard we provide a **proof-of-concept**, creating
+storylines of **future European drought events like 2018**.
