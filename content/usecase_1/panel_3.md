@@ -7,8 +7,8 @@ headline: Proposed methodology
 
 Two step process:
 
-- Select simulated events like the observed event: 'analogues'
-- Compare the analogues in present and future climates
+1. Select simulated events like the observed event: 'analogues'
+1. Compare the analogues in present and future climates
 
 To verify the quality of the results, we have to consider:
 
