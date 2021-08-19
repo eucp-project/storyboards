@@ -8,19 +8,19 @@
     <div class="flex flex-col overflow-auto w-screen h-screen p-2">
       <!-- usecases -->
       <div class="m-2 rounded">
-        <!-- category 1 -->
-        <h3 class="text-2xl p-2 m-2">
-          Category 1
-        </h3>
-        <div class="text-left w-1/3 shadow-xl bg-white m-2">
-          <UseCaseCard
-            :key="usecaseItems.example_usecase_id"
-            :title="usecaseItems.example_usecase_name"
-            :description="usecaseItems.example_usecase_description"
-            :usecase="usecase0"
-          />
+        <div v-for="(item, idx) in index.usecases" :key="idx">
+          <h3 class="text-2xl p-2 m-2">
+            {{ item.category }}
+          </h3>
+          <div class="text-left w-1/3 shadow-xl bg-white m-2">
+            <UseCaseCard
+              :key="item.id"
+              :title="item.name"
+              :description="item.description"
+              :usecase="usecaseData[idx]"
+            />
+          </div>
         </div>
-        <!-- category 2 -->
       </div>
     </div>
   </div>
@@ -30,14 +30,20 @@
 export default {
   data () {
     return {
-      usecaseItems: {},
-      usecase0: [],
+      index: {},
+      usecaseData: {},
       error: false
     }
   },
   async mounted () {
-    this.usecaseItems = await this.$content('usecaseItems').fetch()
-    this.usecase0 = await this.$content('usecase_0').sortBy('slug', 'asc').fetch()
+    const index = await this.$content('index').fetch()
+    const usecases = index.usecases
+
+    for (const usecase in usecases) {
+      this.usecaseData[usecase] = await this.$content(usecase).sortBy('slug', 'asc').fetch()
+    }
+
+    this.index = index // why does it not work if we assing the result of fetch directly to this.index?
   }
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col w-screen h-screen bg-gray-200 p-2">
+  <div class="flex flex-col w-screen h-screen bg-gray-200 p-4 gap-2">
     <!-- Header -->
     <div class="flex p-4">
       <NuxtLink :to="`/`">
@@ -8,24 +8,23 @@
       <h1 class="text-2xl">
         EUCP Example use case: {{ title }}
       </h1>
-      <h2></h2>
     </div>
 
     <!-- Panels overview bar -->
-    <div class="flex no-wrap text-left">
+    <div class="flex no-wrap text-left gap-2">
       <NuxtLink v-for="panel of usecase" :key="panel.path" :to="`${panel.path}`">
-        <div class="flex-grow bg-white rounded text-m p-3 m-2">
+        <div class="flex-grow bg-white rounded text-m p-3">
           {{ panel.headline }}
         </div>
       </NuxtLink>
     </div>
 
     <!-- Panel image and accompanying text -->
-    <div class="flex overflow-auto w-full">
-      <div class="m-2 bg-white rounded">
+    <div class="flex gap-2 overflow-auto h-full">
+      <div class="w-2/3 bg-white rounded">
         <img :src="panel.image" class="object-contain w-auto h-full max-w-full max-h-full mx-auto">
       </div>
-      <div class="w-1/2 m-2 bg-white rounded">
+      <div class="w-1/3 bg-white rounded overflow-auto">
         <nuxt-content :document="panel" class="text-sm p-3" />
       </div>
     </div>
@@ -41,7 +40,7 @@ export default {
     const panel = await $content(params.usecase, params.panel)
       .fetch()
     const index = await $content('index').fetch()
-    const title = index[params.usecase]
+    const title = index.usecases[params.usecase].name
     return {
       usecase,
       panel,
