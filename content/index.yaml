@@ -10,3 +10,9 @@ usecases:
     category: Extracting information from large ensembles (WP2)
     name: Physical storylines of future European drought events
     description: K. van der Wiel, et al. Royal Netherlands Meteorological Institute (KNMI).
+
+  infra:
+    id: 2
+    category: Miscellaneous
+    name: Infrastructure in support of EUropean Climate Prediction
+    description: P. Kalverla et al. Netherlands eScience Center.
