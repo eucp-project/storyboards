@@ -5,7 +5,7 @@ headline: Introduction
 
 ## EUCP infrastructure
 
-EUCP aims to provide digital infrastructure in support of the overall objective
+EUCP aims to provide digital infrastructure in support of its overall objective
 of delivering accessible, authoritative and actionable climate information.
 
 The infrastructure should facilitate aggregation and blending of 'raw' climate
