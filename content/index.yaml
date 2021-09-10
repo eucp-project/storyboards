@@ -11,6 +11,12 @@ usecases:
     name: Physical storylines of future European drought events
     description: K. van der Wiel, et al. Royal Netherlands Meteorological Institute (KNMI).
 
+  weighting:
+    id: 1
+    category: Extracting information from large ensembles (WP2)
+    name: Comparing methods to constrain future climate projections
+    description: L. Brunner, et al. Swiss Federal Institute of Technology in Zürich (ETHZ).
+
   infra:
     id: 2
     category: Miscellaneous

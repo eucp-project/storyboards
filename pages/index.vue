@@ -9,9 +9,11 @@
       <!-- usecases -->
       <div class="m-2 rounded">
         <div v-for="(item, idx) in index.usecases" :key="idx">
-          <h3 class="text-2xl p-2 m-2">
-            {{ item.category }}
-          </h3>
+          <div class="w-screen">
+            <h3 class="text-2xl p-2 m-2">
+              {{ item.category }}
+            </h3>
+          </div>
           <div class="text-left w-1/3 shadow-xl bg-white m-2">
             <UseCaseCard
               :key="item.id"
@@ -43,7 +45,7 @@ export default {
       this.usecaseData[usecase] = await this.$content(usecase).sortBy('slug', 'asc').fetch()
     }
 
-    this.index = index // why does it not work if we assing the result of fetch directly to this.index?
+    this.index = index // why does it not work if we assign the result of fetch directly to this.index?
   }
 }
 </script>
