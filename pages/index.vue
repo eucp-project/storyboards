@@ -8,14 +8,15 @@
     <div class="flex flex-col overflow-auto w-screen h-screen p-2">
       <!-- usecases -->
       <div class="m-2 rounded">
-        <div v-for="(item, idx) in index.usecases" :key="idx">
+        <div v-for="(category,key) in categories" :key="key">
           <div class="w-screen">
             <h3 class="text-2xl p-2 m-2">
-              {{ item.category }}
+              {{ category }}
             </h3>
           </div>
-          <div class="text-left w-1/3 shadow-xl bg-white m-2">
+          <div v-for="(item, idx) in index.usecases" :key="idx" class="text-left w-1/3 shadow-xl bg-white m-2">
             <UseCaseCard
+              v-if="item.category === category"
               :key="item.id"
               :title="item.name"
               :description="item.description"
@@ -34,6 +35,7 @@ export default {
     return {
       index: {},
       usecaseData: {},
+      categories: [],
       error: false
     }
   },
@@ -43,6 +45,10 @@ export default {
 
     for (const usecase in usecases) {
       this.usecaseData[usecase] = await this.$content(usecase).sortBy('slug', 'asc').fetch()
+      const category = usecases[usecase].category
+      if (!this.categories.includes(category)) {
+        this.categories.push(category)
+      }
     }
 
     this.index = index // why does it not work if we assign the result of fetch directly to this.index?

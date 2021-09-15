@@ -12,13 +12,13 @@ usecases:
     description: K. van der Wiel, et al. Royal Netherlands Meteorological Institute (KNMI).
 
   weighting:
-    id: 1
-    category: Extracting information from large ensembles (WP2)
+    id: 2
+    category: Miscellaneous
     name: Comparing methods to constrain future climate projections
     description: L. Brunner, et al. Swiss Federal Institute of Technology in Zürich (ETHZ).
 
   infra:
-    id: 2
+    id: 3
     category: Miscellaneous
     name: Infrastructure in support of EUropean Climate Prediction
     description: P. Kalverla et al. Netherlands eScience Center.
