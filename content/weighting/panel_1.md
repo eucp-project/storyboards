@@ -15,7 +15,3 @@ Many different methods exist to quantify and constrain projections of future cli
 * models used (including ensemble members used)
 * uncertainties included (e.g., internal variability vs forced response only)
 * reported results (e.g., likely vs interquartile range)
-
-<!-- nesting yaml dictionary
-see https://stackoverflow.com/questions/12468806/yaml-multi-nested-and-python-dictionary -->
-
