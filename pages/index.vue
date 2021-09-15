@@ -8,7 +8,7 @@
     <div class="flex flex-col overflow-auto w-screen h-screen p-2">
       <!-- usecases -->
       <div class="m-2 rounded">
-        <div v-for="(category,key) in categories" :key="key">
+        <div v-for="(category,key) in categories" :key="key" class="flex flex-wrap">
           <div class="w-screen">
             <h3 class="text-2xl p-2 m-2">
               {{ category }}
