@@ -11,8 +11,14 @@ usecases:
     name: Physical storylines of future European drought events
     description: K. van der Wiel, et al. Royal Netherlands Meteorological Institute (KNMI).
 
-  infra:
+  weighting:
     id: 2
+    category: Miscellaneous
+    name: Comparing methods to constrain future climate projections
+    description: L. Brunner, et al. Swiss Federal Institute of Technology in Zürich (ETHZ).
+
+  infra:
+    id: 3
     category: Miscellaneous
     name: Infrastructure in support of EUropean Climate Prediction
     description: P. Kalverla et al. Netherlands eScience Center.
