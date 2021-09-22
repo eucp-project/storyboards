@@ -22,3 +22,9 @@ usecases:
     category: Miscellaneous
     name: Infrastructure in support of EUropean Climate Prediction
     description: P. Kalverla et al. Netherlands eScience Center.
+
+  coastal:
+    id: 4
+    category: Application of EUCP innovations (WP4)
+    name: Sandy beach erosion induced by sea level rise
+    description: P. Athanasiou, et al.Deltares.
