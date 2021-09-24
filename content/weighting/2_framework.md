@@ -4,6 +4,8 @@ headline: Framework
 ---
 ## A common framework for method comparison
 
+Within EUCP we brought together 8 groups working on quantifying uncertainty in future climate projections and developed a common framework to enable a fair comparison:
+
 * temperature and precipitation
 * Europe, SREX regions, 4 grid points 
 * summer (June, July, August)

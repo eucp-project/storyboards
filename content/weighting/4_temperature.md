@@ -1,6 +1,6 @@
 ---
 image: weighting/Brunner2020_fig2c.gif
-headline: CES temperature change
+headline: CEU temperature change
 ---
 
 ## Central European summer temperature change
