@@ -1,5 +1,5 @@
 ---
-image: usecase_1/img_2.jpg
+image: drought/img_2.jpg
 headline: Advantages of storylines
 ---
 

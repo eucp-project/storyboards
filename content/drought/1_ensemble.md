@@ -1,5 +1,5 @@
 ---
-image: usecase_1/img_1.gif
+image: drought/img_1.gif
 headline: Advantages of large ensemble simulations
 ---
 

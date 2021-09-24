@@ -1,5 +1,5 @@
 ---
-image: usecase_0/img_4.png
+image: wheat/img_4.png
 headline: "Forecast quality assessment: Reliability"
 ---
 ## Forecast quality assessment of SPEI6 and HMDI3: Reliability

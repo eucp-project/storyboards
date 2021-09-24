@@ -1,5 +1,5 @@
 ---
-image: usecase_0/img_2.png
+image: wheat/img_2.png
 headline: Data and Methods
 ---
 ## Data and Methods

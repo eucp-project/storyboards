@@ -1,5 +1,5 @@
 ---
-image: usecase_0/img_1.png
+image: wheat/img_1.png
 headline: Introduction and Aim
 ---
 
