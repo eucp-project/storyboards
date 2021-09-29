@@ -1,5 +1,5 @@
 ---
-image: usecase_0/img_3.png
+image: wheat/img_3.png
 headline: "Forecast quality assessment: Prediction skill"
 ---
 ## Forecast quality assessment of SPEI6 and HMDI3: Prediction skill

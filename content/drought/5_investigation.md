@@ -1,5 +1,5 @@
 ---
-image: usecase_1/img_5.jpg
+image: drought/img_5.jpg
 headline: "Investigation of climate change and analogues"
 ---
 

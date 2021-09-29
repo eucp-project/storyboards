@@ -1,5 +1,5 @@
 ---
-image: usecase_1/img_4.jpg
+image: drought/img_4.jpg
 headline: "Selection of simulated analogues"
 ---
 

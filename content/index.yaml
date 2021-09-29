@@ -1,11 +1,11 @@
 usecases:
-  usecase_0:
+  wheat:
     id: 0
     category: Application of EUCP innovations (WP4)
     name: Multi-year prediction of drought and heat stress in the wheat sector
     description: B. Solaraju-Murali, et al. Barcelona Supercomputing Center.
 
-  usecase_1:
+  drought:
     id: 1
     category: Extracting information from large ensembles (WP2)
     name: Physical storylines of future European drought events
@@ -22,3 +22,9 @@ usecases:
     category: Miscellaneous
     name: Infrastructure in support of EUropean Climate Prediction
     description: P. Kalverla et al. Netherlands eScience Center.
+
+  coastal:
+    id: 4
+    category: Application of EUCP innovations (WP4)
+    name: Sandy beach erosion induced by sea level rise
+    description: P. Athanasiou, et al. Deltares.

@@ -1,5 +1,5 @@
 ---
-image: usecase_1/img_3.jpg
+image: drought/img_3.jpg
 headline: Proposed methodology
 ---
 

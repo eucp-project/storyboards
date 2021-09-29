@@ -1,5 +1,5 @@
 ---
-image: usecase_0/img_7.png
+image: wheat/img_7.png
 headline: General conclusions
 ---
 ## General conclusions

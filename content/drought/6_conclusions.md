@@ -1,5 +1,5 @@
 ---
-image: usecase_1/img_6.jpg
+image: drought/img_6.jpg
 headline: Conclusions
 ---
 

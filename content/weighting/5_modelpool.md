@@ -1,6 +1,6 @@
 ---
 image: weighting/EUCP_newsletter.png
-headline: "CES temperature change: same model pool"
+headline: "CEU temperature change: same model pool"
 ---
 
 ## Central European summer temperature change: using the same model pool
