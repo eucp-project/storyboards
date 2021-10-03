@@ -13,7 +13,7 @@
     <!-- Panels overview bar -->
     <div class="flex no-wrap text-left gap-2">
       <NuxtLink v-for="panel of usecase" :key="panel.path" :to="`${panel.path}`">
-        <div class="flex-grow bg-white rounded text-m p-3">
+        <div class="flex-grow bg-white rounded text-lg p-3">
           {{ panel.headline }}
         </div>
       </NuxtLink>
@@ -25,7 +25,7 @@
         <img :src="panel.image" class="object-contain w-auto h-full max-w-full max-h-full mx-auto">
       </div>
       <div class="w-1/3 bg-white rounded overflow-auto">
-        <nuxt-content :document="panel" class="text-sm p-3" />
+        <nuxt-content :document="panel" class="text-lg p-3" />
       </div>
     </div>
   </div>

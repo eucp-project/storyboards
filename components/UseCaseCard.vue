@@ -6,7 +6,7 @@
         <h4 class="text-2xl m-2">
           {{ title }}
         </h4>
-        <p class="text-left m-2">
+        <p class="text-left text-xl m-2">
           {{ description }}
         </p>
       </NuxtLink>
