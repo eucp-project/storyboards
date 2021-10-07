@@ -3,7 +3,7 @@ export default {
   target: 'static',
   ssr: false,
   router: {
-    base: '/usecases/',
+    base: '/storyboards/',
     middleware: 'usecases-dynamic-routes'
   },
 
