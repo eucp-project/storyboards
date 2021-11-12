@@ -1,6 +1,6 @@
 ---
 image: summer/info.png
-headline: Information
+headline: More information
 ---
 
 ## More information

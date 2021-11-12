@@ -41,3 +41,9 @@ usecases:
     name: Skillful decadal prediction of southern European summer temperature
     description: L. F. Borchert, et al. Institut Pierre Simon Laplace (IPSL).
 
+  rainstorms:
+    id: 7
+    category: CPM data analysis (WP3)
+    name: Quasi-stationary intense rainstorms spread across Europe under climate change
+    description: A. Kahraman, et al. Newcastle University.
+
