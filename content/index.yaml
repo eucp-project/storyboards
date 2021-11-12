@@ -34,3 +34,10 @@ usecases:
     category: Application of EUCP innovations (WP4)
     name: Sandy beach erosion induced by sea level rise
     description: P. Athanasiou, et al. Deltares.
+
+  summer:
+    id: 6
+    category: Miscellaneous
+    name: Skillful decadal prediction of southern European summer temperature
+    description: L. F. Borchert, et al. Institut Pierre Simon Laplace (IPSL).
+
