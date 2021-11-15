@@ -1,5 +1,5 @@
 ---
-image: cordex_hydro/panel_5_rearranged.png
+image: cordex_hydro/panel_5.png
 headline: Performance-based weighting
 ---
 

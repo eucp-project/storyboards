@@ -1,5 +1,5 @@
 ---
-image: cordex_hydro/panel_3.png
+image: cordex_hydro/panel_3_rearranged.png
 headline: Historical discharge regimes
 ---
 
