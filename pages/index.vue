@@ -1,8 +1,11 @@
 <template>
-  <div class="flex flex-col w-screen h-screen bg-gray-200 p-2">
+  <div class="flex flex-col w-screen h-screen bg-gray-200">
     <!-- Banner -->
-    <div class="banner">
-      <Banner />
+    <div class="flex gap-10 m-2 items-center">
+      <img src="~/static/eucp_logo.png" alt="EUCP Logo">
+      <h1 class="text-2xl">
+        Overview of EUCP Storyboards
+      </h1>
     </div>
 
     <div class="flex flex-col overflow-auto w-screen h-screen p-2">

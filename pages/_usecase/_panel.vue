@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col w-screen h-screen bg-gray-200 p-4 gap-2">
+  <div class="flex flex-col w-screen h-screen bg-gray-200 gap-2">
     <!-- Header -->
     <div class="flex gap-10 m-2 items-center">
       <NuxtLink :to="`/`">
