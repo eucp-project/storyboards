@@ -1,16 +1,16 @@
 <template class="phantom">
   <NuxtLink v-if="usecase.length > 0" :to="usecase[0].path">
-    <div class="flex flex-row p-2 shadow-xl max-w-xl min-h-full">
+    <div class="flex flex-row bg-white shadow-xl max-w-xl rounded-lg h-48">
       <!-- Usecase cards -->
-      <div class="prose">
-        <h4 class="m-2">
+      <div class="prose m-4">
+        <h4>
           {{ title }}
         </h4>
-        <p class="m-2">
+        <p>
           {{ description }}
         </p>
       </div>
-      <img :src="usecase[0].image" alt="storyboard preview" class="max-w-sm">
+      <img :src="usecase[0].image" alt="storyboard preview" class="max-w-xs rounded-r-lg">
     </div>
   </NuxtLink>
 </template>
