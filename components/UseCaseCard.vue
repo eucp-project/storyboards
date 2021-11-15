@@ -1,13 +1,16 @@
 <template class="phantom">
   <NuxtLink v-if="usecase.length > 0" :to="usecase[0].path">
-    <div class="p-4 shadow-xl max-w-lg min-h-full prose">
-      <h4>
-        {{ title }}
-      </h4>
-      <p class="italic">
-        {{ description }}
-      </p>
-      <img :src="usecase[0].image" alt="storyboard preview" class="max-w-sm mx-auto">
+    <div class="flex flex-row p-2 shadow-xl max-w-xl min-h-full">
+      <!-- Usecase cards -->
+      <div class="prose">
+        <h4 class="m-2">
+          {{ title }}
+        </h4>
+        <p class="m-2">
+          {{ description }}
+        </p>
+      </div>
+      <img :src="usecase[0].image" alt="storyboard preview" class="max-w-sm">
     </div>
   </NuxtLink>
 </template>
@@ -30,6 +33,11 @@ export default {
       type: Array,
       default: () => [],
       required: false
+    }
+  },
+  methods: {
+    reversed (arr) {
+      return arr.reverse()
     }
   }
 }
