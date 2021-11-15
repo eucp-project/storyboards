@@ -47,3 +47,9 @@ usecases:
     name: Quasi-stationary intense rainstorms spread across Europe under climate change
     description: A. Kahraman, et al. Newcastle University.
 
+  flood:
+    id: 8
+    category: CPM data analysis (WP3)
+    name: Alpine flash floods
+    description: M. Zander, et al. Deltares.
+
