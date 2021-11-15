@@ -1,12 +1,12 @@
 <template>
   <div class="flex flex-col w-screen h-screen bg-gray-200 p-4 gap-2">
     <!-- Header -->
-    <div class="flex p-4">
+    <div class="flex gap-10 m-2 items-center">
       <NuxtLink :to="`/`">
         <img src="~/static/eucp_logo.png" alt="EUCP Logo">
       </NuxtLink>
       <h1 class="text-2xl">
-        EUCP Example use case: {{ title }}
+        Storyboard: {{ title }}
       </h1>
     </div>
 
