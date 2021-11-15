@@ -5,7 +5,7 @@ headline: Literature
 
 ## Existing literature
 
-Existing literature on the subject (CPM simulations of the domain) is not very abundant yet. The paper by Gutmann et al (2018) found that a PGW approach gave satisfying results, with TC having faster maximum winds, slower storm translation, lower central pressures and higher precipitation rates. An important remark was that despite the PGW approach, there was surprisingly large variability between the storms, necessitating the creation of a large ensemble.
+Existing literature on the subject (CPM simulations of the domain) is not very abundant yet. The paper by Gutmann et al (2018) found that a Pseudo–Global Warming (PGW) approach gave satisfying results, with TC having faster maximum winds, slower storm translation, lower central pressures and higher precipitation rates. An important remark was that despite the PGW approach, there was surprisingly large variability between the storms, necessitating the creation of a large ensemble.
 
 **Gutmann et al. (2018)**: Changes in Hurricanes from a 13-Yr Convection-Permitting Pseudo–Global Warming Simulation
 - **ERA-Interim**. Period 2001-2013 (32 storms). 

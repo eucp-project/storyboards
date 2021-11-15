@@ -7,7 +7,7 @@ headline: Conclusions
 
 EUCP Caribbean CPM and RCM simulations: ERA5 + PGW, focus on Hurricane season. Top-10 seasons according to criteria. Includes 2017 (Irma). Data will be used by WP4 for eg., storm surge modelling.
 
-Preliminary results: wind speed and precipitation. Robust increase in precipitation maxima, wind speed change less obvious. Poor man’s tracking: Not all TC reproduced in REF and PGW: Optimal conditions in present-day climate not necessarily more favorable for development in future climate. Further analysis necessary.
+Preliminary results: wind speed and precipitation. Robust increase in precipitation maxima, wind speed change less obvious. Poor man’s tracking: Not all tropical cyclones reproduced in REF and PGW: Optimal conditions in present-day climate not necessarily more favorable for development in future climate. Further analysis necessary.
 
 Still to do:
 - More extended analysis, including pooling of results.
