@@ -17,7 +17,7 @@
               {{ category }}
             </h3>
           </div>
-          <div v-for="(item, idx) in categorize(index.usecases, category)" :key="idx" class="text-left w-1/3 shadow-xl bg-white m-2">
+          <div v-for="(item, idx) in categorize(index.usecases, category)" :key="idx" class="flex justify-items-stretch text-left shadow-xl bg-white m-2">
             <UseCaseCard
               :key="item.id"
               :title="item.name"
