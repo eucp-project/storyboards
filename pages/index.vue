@@ -10,7 +10,7 @@
       <div class="m-2 rounded">
         <div v-for="(category,key) in categories" :key="key" class="flex flex-wrap">
           <div class="w-screen">
-            <h3 class="text-2xl p-2 m-2">
+            <h3 class="prose-2xl p-2 m-2">
               {{ category }}
             </h3>
           </div>

@@ -3,10 +3,10 @@
     <!-- Usecase cards -->
     <div class="no-wrap text-left w-1/2">
       <NuxtLink v-if="usecase.length > 0" :to="usecase[0].path">
-        <h4 class="text-2xl m-2">
+        <h4 class="text-xl m-2">
           {{ title }}
         </h4>
-        <p class="text-left text-xl m-2">
+        <p class="text-left prose-lg m-2">
           {{ description }}
         </p>
       </NuxtLink>

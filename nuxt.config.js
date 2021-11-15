@@ -1,3 +1,5 @@
+import tailwindTypography from '@tailwindcss/typography'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -58,5 +60,8 @@ export default {
   },
 
   tailwindcss: {
+    config: {
+      plugins: [tailwindTypography]
+    }
   }
 }
