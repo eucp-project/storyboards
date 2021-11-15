@@ -5,26 +5,45 @@ usecases:
     name: Multi-year prediction of drought and heat stress in the wheat sector
     description: B. Solaraju-Murali, et al. Barcelona Supercomputing Center.
 
-  drought:
+  carribean:
     id: 1
+    category: CPM data analysis (WP3)
+    name: The EUCP Carribean runs
+    description: H. de Vries, et al. Royal Netherlands Meteorological Institute (KNMI).
+
+  drought:
+    id: 2
     category: Extracting information from large ensembles (WP2)
     name: Physical storylines of future European drought events
     description: K. van der Wiel, et al. Royal Netherlands Meteorological Institute (KNMI).
 
   weighting:
-    id: 2
+    id: 3
     category: Miscellaneous
     name: Comparing methods to constrain future climate projections
     description: L. Brunner, et al. Swiss Federal Institute of Technology in Zürich (ETHZ).
 
   infra:
-    id: 3
+    id: 4
     category: Miscellaneous
     name: Infrastructure in support of EUropean Climate Prediction
     description: P. Kalverla et al. Netherlands eScience Center.
 
   coastal:
-    id: 4
+    id: 5
     category: Application of EUCP innovations (WP4)
     name: Sandy beach erosion induced by sea level rise
     description: P. Athanasiou, et al. Deltares.
+
+  summer:
+    id: 6
+    category: Miscellaneous
+    name: Skillful decadal prediction of southern European summer temperature
+    description: L. F. Borchert, et al. Institut Pierre Simon Laplace (IPSL).
+
+  rainstorms:
+    id: 7
+    category: CPM data analysis (WP3)
+    name: Quasi-stationary intense rainstorms spread across Europe under climate change
+    description: A. Kahraman, et al. Newcastle University.
+
