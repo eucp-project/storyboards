@@ -47,3 +47,8 @@ usecases:
     name: Quasi-stationary intense rainstorms spread across Europe under climate change
     description: A. Kahraman, et al. Newcastle University.
 
+  cordex_hydro:
+    id: 8
+    category: Application of EUCP innovations (WP4)
+    name: Estimating regionalized hydrological impacts of climate change over Europe
+    description: F. Sperna Weiland et al., Deltares
