@@ -1,16 +1,32 @@
 <template class="phantom">
   <NuxtLink v-if="usecase.length > 0" :to="usecase[0].path">
-    <div class="flex flex-row bg-white shadow-xl max-w-xl rounded-lg h-48">
-      <!-- Usecase cards -->
-      <div class="prose m-4">
-        <h4>
-          {{ title }}
-        </h4>
-        <p>
-          {{ description }}
-        </p>
+    <!-- relative parent needed for absolute positioning of svg -->
+    <div class="relative">
+      <div class="flex flex-row bg-white shadow-xl max-w-xl rounded-lg h-48">
+        <!-- Usecase cards -->
+        <div class="prose m-4">
+          <h4>
+            {{ title }}
+          </h4>
+          <p>
+            {{ description }}
+          </p>
+        </div>
+        <img :src="usecase[0].image" alt="storyboard preview" class="max-w-xs rounded-r-lg">
       </div>
-      <img :src="usecase[0].image" alt="storyboard preview" class="max-w-xs rounded-r-lg">
+      <!-- Add "in preparation badge" -->
+      <svg v-if="title==='Alpine flash floods'" width="156" height="36" class="absolute right-2 top-1">
+        <rect
+          x="3"
+          y="3"
+          rx="10"
+          ry="10"
+          width="150"
+          height="30"
+          style="fill:salmon;stroke:black;stroke-width:2;opacity:0.5"
+        />
+        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">In preparation</text>
+      </svg>
     </div>
   </NuxtLink>
 </template>

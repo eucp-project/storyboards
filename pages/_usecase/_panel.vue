@@ -6,7 +6,7 @@
         <img src="~/static/eucp_logo.png" alt="EUCP Logo">
       </NuxtLink>
       <h1 class="text-2xl">
-        Storyboard: {{ title }}
+        Storyboard: {{ title }} {{ title === "Alpine flash floods" ? "(in preparation)" : "" }}
       </h1>
     </div>
 
