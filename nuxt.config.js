@@ -1,3 +1,5 @@
+import tailwindTypography from '@tailwindcss/typography'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -9,7 +11,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'usecases',
+    title: 'EUCP Storyboards',
     htmlAttrs: {
       lang: 'en'
     },
@@ -30,7 +32,6 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '~/plugins/vueper-slides.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -58,5 +59,8 @@ export default {
   },
 
   tailwindcss: {
+    config: {
+      plugins: [tailwindTypography]
+    }
   }
 }
