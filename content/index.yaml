@@ -71,4 +71,8 @@ usecases:
     name: Attribution of a small scale, heavy flash flood event to climate change
     description: D. Matte et al., University of Copenhagen
 
-
+  atlas:
+    id: 12
+    category: Miscellaneous
+    name: Atlas of (un)constrained climate projections
+    description: B. Booth et al., UK Met Office
