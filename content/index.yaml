@@ -58,3 +58,11 @@ usecases:
     category: CPM data analysis (WP3)
     name: Multiple lines of evidence​
     description: T. Crocker et al., MetOffice
+
+  flood:
+    id: 10
+    category: Application of EUCP innovations (WP4)
+    name: Attribution of a small scale, heavy flash flood event to climate change
+    description: D. Matte et al., University of Copenhagen
+
+
