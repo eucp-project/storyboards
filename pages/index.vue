@@ -41,7 +41,7 @@ export default {
     const index = await this.$content('index').fetch()
     const usecases = index.usecases
     for (const usecase in usecases) {
-      this.usecaseData[usecase] = await this.$content(usecase).sortBy('slug', 'asc').fetch()
+      this.usecaseData[usecase] = await this.$content(usecase).sortBy('slug', 'asc').fetch().catch(e => console.log(e))
       const category = usecases[usecase].category
       if (!this.categories.includes(category)) {
         this.categories.push(category)

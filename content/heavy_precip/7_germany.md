@@ -1,5 +1,5 @@
 ---
-image: legacy/germany.png
+image: heavy_precip/germany.png
 headline: Western Germany
 ---
 

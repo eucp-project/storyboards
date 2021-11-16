@@ -1,5 +1,5 @@
 ---
-image: legacy/algorithms.png
+image: heavy_precip/algorithms.png
 headline: Tracking algorithms
 ---
 

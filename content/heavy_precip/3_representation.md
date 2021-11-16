@@ -1,5 +1,5 @@
 ---
-image: legacy/representation.png
+image: heavy_precip/representation.png
 headline: Representation of precipitation extremes
 ---
 
