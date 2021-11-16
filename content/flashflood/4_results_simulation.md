@@ -1,5 +1,5 @@
 ---
-image: flood/simulation.png
+image: flashflood/simulation.png
 headline: Results-simulation
 ---
 

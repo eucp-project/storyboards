@@ -1,5 +1,5 @@
 ---
-image: flood/frequency.png
+image: flashflood/frequency.png
 headline: Results-frequency
 ---
 

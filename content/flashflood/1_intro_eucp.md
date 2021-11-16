@@ -1,5 +1,5 @@
 ---
-image: flood/intro_eucp.png
+image: flashflood/intro_eucp.png
 headline: Introduction-EUCP data
 ---
 

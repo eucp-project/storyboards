@@ -1,5 +1,5 @@
 ---
-image: flood/intro_flash.png
+image: flashflood/intro_flash.png
 headline: Introduction-Flash floods
 ---
 

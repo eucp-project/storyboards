@@ -1,5 +1,5 @@
 ---
-image: flood/method.png
+image: flashflood/method.png
 headline: Methodology​
 ---
 
