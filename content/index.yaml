@@ -52,3 +52,9 @@ usecases:
     category: Application of EUCP innovations (WP4)
     name: Estimating regionalized hydrological impacts of climate change over Europe
     description: F. Sperna Weiland et al., Deltares
+
+  evidence:
+    id: 9
+    category: CPM data analysis (WP3)
+    name: Multiple lines of evidence​
+    description: T. Crocker et al., MetOffice
