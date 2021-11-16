@@ -52,3 +52,11 @@ usecases:
     category: Application of EUCP innovations (WP4)
     name: Estimating regionalized hydrological impacts of climate change over Europe
     description: F. Sperna Weiland et al., Deltares
+
+  flood:
+    id: 9
+    category: Application of EUCP innovations (WP4)
+    name: Attribution of a small scale, heavy flash flood event to climate change
+    description: D. Matte et al., University of Copenhagen
+
+
