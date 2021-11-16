@@ -1,9 +1,9 @@
 ---
 image: flood/precipitation.png
-headline: Risk assessment
+headline: Simulating intense convective storm 
 ---
 
-## Risk assessment
+## Simulating intense convective storm 
 
 Simulating intense convective storm is very challenging due, among other things, their very high sensitivities to initial conditions the difficulty of the models to resolve small-scale interactions. Here, we use a sophisticated ensemble approach with the HARMONIE-AROME limited-area numerical weather prediction model was able to represent the event. 
 
