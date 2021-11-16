@@ -76,3 +76,15 @@ usecases:
     category: Miscellaneous
     name: Atlas of (un)constrained climate projections
     description: B. Booth et al., UK Met Office
+
+  cp_benefits:
+    id: 13
+    category: CPM data analysis (WP3)
+    name: Benefits and added value of convection-permitting climate modeling over Fenno-Scandinavia
+    description: Petter Lind et al., SMHI
+
+  wind_droughts:
+    id: 14
+    category: Application of EUCP innovations (WP4)
+    name: Wind droughts in Europe
+    description: Shuang Yu et al., IPSL
