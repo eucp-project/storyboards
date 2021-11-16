@@ -1,28 +1,27 @@
 <template>
-  <div class="flex flex-col w-screen h-screen bg-gray-200 p-2">
+  <div class="flex flex-col w-screen h-screen bg-gray-200 overflow-auto">
     <!-- Banner -->
-    <div class="banner">
-      <Banner />
+    <div class="flex gap-10 m-2 items-center">
+      <img src="~/static/eucp_logo.png" alt="EUCP Logo">
+      <h1 class="text-2xl">
+        Overview of EUCP Storyboards
+      </h1>
     </div>
 
-    <div class="flex flex-col overflow-auto w-screen h-screen p-2">
-      <!-- usecases -->
-      <div class="m-2 rounded">
-        <div v-for="(category,key) in categories" :key="key" class="flex flex-wrap">
-          <div class="w-screen">
-            <h3 class="text-2xl p-2 m-2">
-              {{ category }}
-            </h3>
-          </div>
-          <div v-for="(item, idx) in categorize(index.usecases, category)" :key="idx" class="text-left w-1/3 shadow-xl bg-white m-2">
-            <UseCaseCard
-              :key="item.id"
-              :title="item.name"
-              :description="item.description"
-              :usecase="usecaseData[idx]"
-            />
-          </div>
-        </div>
+    <div class="flex flex-col m-2 gap-2">
+      <!-- categories -->
+      <div v-for="(category,key) in categories" :key="key" class="flex flex-wrap gap-4 mb-8">
+        <h3 class="prose-xl w-full">
+          {{ category }}
+        </h3>
+        <!-- usecases -->
+        <UseCaseCard
+          v-for="(item, idx) in categorize(index.usecases, category)"
+          :key="item.id"
+          :title="item.name"
+          :description="item.description"
+          :usecase="usecaseData[idx]"
+        />
       </div>
     </div>
   </div>

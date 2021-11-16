@@ -1,6 +1,6 @@
 ---
 image: carribean/top10.png
-headline: Top-10 list
+headline: Top-10 list of seasons
 ---
 
 ## Top-10 list
