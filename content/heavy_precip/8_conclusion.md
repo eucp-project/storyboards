@@ -1,5 +1,5 @@
 ---
-image: legacy/conclusion.png
+image: heavy_precip/conclusion.png
 headline: Conclusions
 ---
 

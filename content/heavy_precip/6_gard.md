@@ -1,5 +1,5 @@
 ---
-image: legacy/gard.png
+image: heavy_precip/gard.png
 headline: Gard, France
 ---
 

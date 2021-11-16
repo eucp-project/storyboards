@@ -1,5 +1,5 @@
 ---
-image: legacy/motivation.png
+image: heavy_precip/motivation.png
 headline: Motivation
 ---
 

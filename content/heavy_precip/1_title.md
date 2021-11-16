@@ -1,5 +1,5 @@
 ---
-image: legacy/title.png
+image: heavy_precip/title.png
 headline: Title
 ---
 

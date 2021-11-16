@@ -1,5 +1,5 @@
 ---
-image: legacy/carrara.png
+image: heavy_precip/carrara.png
 headline: Carrara, Italy
 ---
 
