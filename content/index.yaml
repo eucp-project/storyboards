@@ -71,4 +71,9 @@ usecases:
     name: Attribution of a small scale, heavy flash flood event to climate change
     description: D. Matte et al., University of Copenhagen
 
+  legacy:
+    id: 12
+    category: CPM data analysis (WP3)
+    name: Representation and identification of 3 historic "Heavy Precipitation Events"
+    description: S. Muller, et al., International Centre for Theoretical Physics (ICTP)
 
