@@ -47,20 +47,26 @@ usecases:
     name: Quasi-stationary intense rainstorms spread across Europe under climate change
     description: A. Kahraman, et al. Newcastle University.
 
-  cordex_hydro:
+  flashflood:
     id: 8
+    category: CPM data analysis (WP3)
+    name: Alpine flash floods
+    description: M. Zander, et al. Deltares.
+
+  cordex_hydro:
+    id: 9
     category: Application of EUCP innovations (WP4)
     name: Estimating regionalized hydrological impacts of climate change over Europe
     description: F. Sperna Weiland et al., Deltares
 
   evidence:
-    id: 9
+    id: 10
     category: CPM data analysis (WP3)
     name: Multiple lines of evidence​
     description: T. Crocker et al., MetOffice
 
   flood:
-    id: 10
+    id: 11
     category: Application of EUCP innovations (WP4)
     name: Attribution of a small scale, heavy flash flood event to climate change
     description: D. Matte et al., University of Copenhagen
