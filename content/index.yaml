@@ -67,7 +67,7 @@ usecases:
 
   legacy:
     id: 11
-    category: Miscellaneous
+    category: Application of EUCP innovations (WP4)
     name: Representation and identification of 3 historic "Heavy Precipitation Events"
     description: S. Muller, et al., International Centre for Theoretical Physics (ICTP)
 
