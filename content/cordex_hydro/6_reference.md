@@ -5,7 +5,6 @@ headline: More information
 
 # Further reading
 
-[Sperna Weiland, F.C., Visser, R.D., Greve, P., Bisselink, B., Brunner, L. and
-A.H. Weerts (2021). Estimating regionalized hydrological impacts of climate
-change over Europe by performance-based weighting of CORDEX projections.
-Submitted to Frontiers in Water.](https://doi.org/10.3389/frwa.2021.713537)
+[Sperna Weiland F.C., R.F. Visser, P. Greve, B. Bisselin, L. Brunner, A.H.
+Weerts, Frontiers in Water, 3, 143, doi:
+10.3389/frwa.2021.713537](https://doi.org/10.3389/frwa.2021.713537)
