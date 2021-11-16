@@ -5,7 +5,7 @@ headline: Recent research
 
 ## Recent research into future climate changes and their impact on landslide risk​
 
-_Niculiţă, M. (2020). Landslide Hazard Induced by Climate Changes in North-Eastern Romania. Climate Change Management, (May), 245–265.https://doi.org/10.1007/978-3-030-37425-9_13_
+[Niculiţă, M. (2020). Landslide Hazard Induced by Climate Changes in North-Eastern Romania. Climate Change Management, (May), 245–265.](https://doi.org/10.1007/978-3-030-37425-9_13)
 
 This study finds that climate projections imply a return to higher rainfall
 intensities that were last seen in the 1970s  and 1980s and which coincided with
