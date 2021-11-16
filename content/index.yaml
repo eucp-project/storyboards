@@ -68,6 +68,6 @@ usecases:
   legacy:
     id: 11
     category: Miscellaneous
-    name: The representation and identification of three historic "Heavy Precipitation Events" in convection-permitting observations and models
-    description: S. K. Muller, et al., The Abdus Salam International Centre for Theoretical Physics - Earth System Physics Section (ICTP-ESP)
+    name: Representation and identification of 3 historic "Heavy Precipitation Events"
+    description: S. Muller, et al., International Centre for Theoretical Physics (ICTP)
 
