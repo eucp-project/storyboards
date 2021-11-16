@@ -65,4 +65,9 @@ usecases:
     name: Attribution of a small scale, heavy flash flood event to climate change
     description: D. Matte et al., University of Copenhagen
 
+  legacy:
+    id: 11
+    category: Miscellaneous
+    name: The representation and identification of three historic "Heavy Precipitation Events" in convection-permitting observations and models
+    description: S. K. Muller, et al., The Abdus Salam International Centre for Theoretical Physics - Earth System Physics Section (ICTP-ESP)
 
