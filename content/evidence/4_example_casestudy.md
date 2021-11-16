@@ -12,5 +12,5 @@ different climate projections.​
 
 Reference: 
 
-_Balteanu, D., Chendes, V., & Sima, M. (2009). GIS landslide hazard map of
-Romania. GIM International, 23(4), 13–15.​_
+[Balteanu, D., Chendes, V., & Sima, M. (2009). GIS landslide hazard map of
+Romania. GIM International, 23(4), 13–15.​](https://www.gim-international.com/content/article/gis-landslide-hazard-map-of-romania)
