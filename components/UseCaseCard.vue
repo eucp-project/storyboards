@@ -27,6 +27,19 @@
         />
         <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">In preparation</text>
       </svg>
+      <!-- Add "excluded from MUF" -->
+      <svg v-if="title==='Multi-year prediction of drought and heat stress in the wheat sector'" width="176" height="36" class="absolute right-2 top-1">
+        <rect
+          x="3"
+          y="3"
+          rx="10"
+          ry="10"
+          width="170"
+          height="30"
+          style="fill:forestgreen;stroke:black;stroke-width:2"
+        />
+        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">Not in MUF-workshop</text>
+      </svg>
     </div>
   </NuxtLink>
 </template>
