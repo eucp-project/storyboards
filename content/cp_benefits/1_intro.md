@@ -4,7 +4,7 @@ headline: Convection-permitting modeling in Fenno-Scandinavia
 ---
 ## Benefits and added value of convection-permitting climate modeling over Fenno-Scandinavia
 
-Snow, ice, the long coastline, and the Scandes mountains, they all make the Fenno-Scandinavia a complex region. The box plots show observed distribution of daily mean T2m (top panel) and Pr (bottom) for DJF (left half) and JJA (right half) seasons. 
+Snow, ice, the long coastline, and the Scandes mountains, they all make the Fenno-Scandinavia a complex region. The box plots show observed distribution of daily mean 2 meter temperature (T2m, top panel) and precipitation (Pr, bottom) for winter (DJF, left half) and summer (JJA, right half) seasons. 
 
 ## A mini-ensemble
 
