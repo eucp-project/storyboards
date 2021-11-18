@@ -10,13 +10,13 @@
 
     <div class="flex flex-col m-2 gap-2">
       <!-- categories -->
-      <div v-for="(trl, key) in categories" :key="key" class="flex flex-wrap gap-4 mb-8">
+      <div v-for="(category, key) in categories" :key="key" class="flex flex-wrap gap-4 mb-8">
         <h3 class="prose-xl w-full">
-          {{ parse_trl(trl) }}
+          {{ category }}
         </h3>
         <!-- usecases -->
         <UseCaseCard
-          v-for="(item, idx) in categorize(index.usecases, trl)"
+          v-for="(item, idx) in categorize(index.usecases, category)"
           :key="item.id"
           :title="item.name"
           :description="item.description"
@@ -42,18 +42,18 @@ export default {
     const usecases = index.usecases
     for (const usecase in usecases) {
       this.usecaseData[usecase] = await this.$content(usecase).sortBy('slug', 'asc').fetch().catch(e => console.log(e))
-      const trl = usecases[usecase].trl
-      if (!this.categories.includes(trl)) {
-        this.categories.push(trl)
+      const category = usecases[usecase].category
+      if (!this.categories.includes(category)) {
+        this.categories.push(category)
       }
     }
     this.index = index // why does it not work if we assign the result of fetch directly to this.index?
   },
   methods: {
-    categorize (usecases, trl) {
+    categorize (usecases, category) {
       const items = {}
       for (const usecase in usecases) {
-        if (usecases[usecase].trl === trl) {
+        if (usecases[usecase].category === category) {
           items[usecase] = usecases[usecase]
         }
       }

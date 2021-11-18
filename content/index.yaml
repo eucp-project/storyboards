@@ -2,111 +2,111 @@ usecases:
   wheat:
     id: 0
     trl: high
-    category: Application of EUCP innovations (WP4)
+    category: Application of EUCP innovations
     name: Multi-year prediction of drought and heat stress in the wheat sector
     description: B. Solaraju-Murali, et al. Barcelona Supercomputing Center.
 
   carribean:
     id: 1
     trl: low
-    category: CPM data analysis (WP3)
+    category: EUCP data and products
     name: The EUCP Carribean runs
     description: H. de Vries, et al. Royal Netherlands Meteorological Institute (KNMI).
 
   drought:
     id: 2
     trl: medium
-    category: Extracting information from large ensembles (WP2)
+    category: EUCP science and methodologies
     name: Physical storylines of future European drought events
     description: K. van der Wiel, et al. Royal Netherlands Meteorological Institute (KNMI).
 
   weighting:
     id: 3
     trl: low
-    category: Miscellaneous
+    category: EUCP science and methodologies
     name: Comparing methods to constrain future climate projections
     description: L. Brunner, et al. Swiss Federal Institute of Technology in Zürich (ETHZ).
 
   infra:
     id: 4
     trl: high
-    category: Miscellaneous
+    category: EUCP data and products
     name: Infrastructure in support of EUropean Climate Prediction
     description: P. Kalverla et al. Netherlands eScience Center.
 
   coastal:
     id: 5
     trl: high
-    category: Application of EUCP innovations (WP4)
+    category: Application of EUCP innovations
     name: Sandy beach erosion induced by sea level rise
     description: P. Athanasiou, et al. Deltares.
 
   summer:
     id: 6
     trl: high
-    category: Miscellaneous
+    category: EUCP science and methodologies
     name: Skillful decadal prediction of southern European summer temperature
     description: L. F. Borchert, et al. Institut Pierre Simon Laplace (IPSL).
 
   rainstorms:
     id: 7
     trl: medium
-    category: CPM data analysis (WP3)
+    category: EUCP science and methodologies
     name: Quasi-stationary intense rainstorms spread across Europe under climate change
     description: A. Kahraman, et al. Newcastle University.
 
   flashflood:
     id: 8
     trl: high
-    category: CPM data analysis (WP3)
+    category: Application of EUCP innovations
     name: Alpine flash floods
     description: M. Zander, et al. Deltares.
 
   cordex_hydro:
     id: 9
     trl: high
-    category: Application of EUCP innovations (WP4)
+    category: Application of EUCP innovations
     name: Estimating regionalized hydrological impacts of climate change over Europe
     description: F. Sperna Weiland et al., Deltares
 
   evidence:
     id: 10
     trl: medium
-    category: CPM data analysis (WP3)
+    category: EUCP science and methodologies
     name: Multiple lines of evidence​
     description: T. Crocker et al., MetOffice
 
   flood:
     id: 11
     trl: medium
-    category: Application of EUCP innovations (WP4)
+    category: Application of EUCP innovations
     name: Attribution of a small scale, heavy flash flood event to climate change
     description: D. Matte et al., University of Copenhagen
 
   heavy_precip:
     id: 12
     trl: medium
-    category: CPM data analysis (WP3)
+    category: EUCP data and products
     name: Representation and identification of 3 historic "Heavy Precipitation Events"
     description: S. Muller, et al., International Centre for Theoretical Physics (ICTP)
 
   atlas:
     id: 13
     trl: medium
-    category: Miscellaneous
+    category: EUCP data and products
     name: Atlas of (un)constrained climate projections
     description: B. Booth et al., UK Met Office
 
   cp_benefits:
     id: 14
     trl: low
-    category: CPM data analysis (WP3)
+    category: EUCP data and products
     name: Benefits and added value of convection-permitting climate modeling over Fenno-Scandinavia
     description: Petter Lind et al., SMHI
 
   wind_droughts:
     id: 15
     trl: high
-    category: Application of EUCP innovations (WP4)
+    category: Application of EUCP innovations
     name: Wind droughts in Europe
     description: Shuang Yu et al., IPSL
