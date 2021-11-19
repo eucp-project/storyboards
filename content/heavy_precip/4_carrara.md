@@ -12,6 +12,7 @@ falling”. It may as well be described as a landfalling event, hot and humid ai
 from the Mediterranean sea, the tense south-western flow and the orography of
 upper Tuscany, were among the triggers that played a major role.
 
-The tracker identifies the event and attributes fitting properties: It is
-short-lived, of small scale and intense. Also in a cpRCM such events may be
-well-represented.
+The tracker identifies the event in the observations and attributes fitting
+properties: It is short-lived, of small scale and intense. 
+
+Also in a cpRCM such events may be well-represented, as indicated.

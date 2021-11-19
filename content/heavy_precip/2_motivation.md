@@ -5,5 +5,7 @@ headline: Motivation
 
 ## Motivation
 
-Flash floods caused by heavy precipitation events
-rank among the most severe hazards caused by weather extremes. Typically the precipitation events have a strong convective character, are relatively small in spatial scale and short-lived. Thus it is challenging to accurately forecast them and to represent them in climate models.
+Regional Climate Models integrated on convection permitting grids (dx<=4km;
+cpRCMs) improve the representation of precipitation extremes, as shown by
+[Pichelli et al. (2021)](https://link.springer.com/article/10.1007/s00382-021-05657-4), e.g. in their Figure 3. However, information about the
+properties of the events, causing these extremes, is not yielded.
