@@ -5,6 +5,8 @@ headline: Introduction
 
 ## Observationally constrained projections gaining greater visibility
 
+Observations have been used to constrain climate projection spread in National Climate Scenarios (e.g. Swiss, UK, Australian) but have not yet been commonly applied elsewhere.  They represent a way to assess which existing climate projections are more plausible given how well they reproduce historical climate.  They are starting to see wider adoption and can be an important tool in the climate projection toolbox.
+
 Observational constraints used in IPCC to provide context, given many more high
 temperature response simulations that are not thought to be more likely.
 
