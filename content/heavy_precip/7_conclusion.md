@@ -6,9 +6,18 @@ headline: Conclusions
 ## Conclusions
 
 Through the application of trackers valuable information about the events
-causing hazards like flash floods can be obtained. The application of trackers
-is useful for both observations and climate models at convection-permitting
-resolution, and in particular for numerical weather prediction.
+causing hazards like flash floods can be obtained. Here statistics obtained from
+9 year-periods of an observational dataset, and two cpRCM ensembles, one driven
+by reanalysis ("evaluation") and one driven by CMIP5-GCMs are presented. On left
+we find properties describing the scale of the HPEs and on the right properties
+that describe their intensity. In this way models can be evluated against
+observations.
+
+Eventually the same can be done for climate projections, promising valuable
+information about how HPEs are going to change in a future warmer climate.
+
+Models and Observations provided through the project CORDEX-FPSCONV:
+https://www.hymex.org/cordexfps-convection/wiki/doku.php?id=Home
 
 References:
 

@@ -6,7 +6,7 @@
         <img src="~/static/eucp_logo.png" alt="EUCP Logo">
       </NuxtLink>
       <h1 class="text-2xl">
-        Storyboard: {{ title }} {{ (title==="Alpine flash floods" | title==="Attribution of a small scale, heavy flash flood event to climate change") ? "(in preparation)" : "" }}
+        Storyboard: {{ title }}
       </h1>
     </div>
 
