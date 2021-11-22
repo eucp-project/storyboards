@@ -5,10 +5,8 @@ headline: Risk assessment
 
 ## Risk assessment
 
-Our approach shows that we have been able to catch the main caracteristique of the storm and then his related risk. The next question was trying to understand the influence over the event from the observed and upcoming warming. 
+Our approach indicates that we have been able to catch the main characteristics of the storm and hence assessing a related risk of exceeding certain precipitation intensity thresholds. The next objective is to better understand the influence on the event from due to overall global warming  and projected further future warming levels.
 
-Using an adapted pseudo-global warming approach, we investigate the related risk of the same event using conditions mimicking pre-industrial period.  
+Using an adapted pseudo-global warming approach, we investigate the related risk of exceedance of the same event using conditions mimicking pre-industrial conditions, But also to analyse the related risk of the event using conditions mimicking different future warming levels.
 
-Using the same an adapted pseudo-global warming approach, we also investigate the related risk of the same event using conditions mimicking different warming levels.  
-
-The figure shows the upscaled hourly probability maps from 15 UTC to 20 UTC for all climate targets (-1°C, control, +1°C, +2°C and +3°C respectively). Threshold : 60 mm/h.
+The figure shows maps of the calculated risk of exceeding a threshold of 60 mm/h between 15 UTC and 20 UTC for all warming levels (-1°C, control, +1°C, +2°C and +3°C respectively).
