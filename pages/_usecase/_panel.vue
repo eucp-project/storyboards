@@ -6,7 +6,7 @@
         <img src="~/static/eucp_logo.png" alt="EUCP Logo">
       </NuxtLink>
       <h1 class="text-2xl">
-        Storyboard: {{ title }} {{ (title==="Atlas of (un)constrained climate projections") ? "(in preparation)" : "" }}
+        Storyboard: {{ title }}
       </h1>
     </div>
 

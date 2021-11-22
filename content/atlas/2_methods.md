@@ -1,12 +1,10 @@
 ---
 image: atlas/methods.png
-headline: Methods
+headline: Underlying understanding
 ---
 
-## Systematic assessment of potential approaches in EUCP to aid decision adoption
+## EUCP has led underlying work to understand user value in these approaches
 
-In EUCP, we evaluated several methods to constrain climate projections, focusing
-on the following questions:
+The work within EUCP has been on understanding different potential quantitative approaches to using historical validation of current projections. We provided the first common evaluation of their projected changes, across a range of currently available methodologies. 
 
-* Do approaches lead to different projected changes?
-* Does the use of observations lead to more reliable climate projections?
+We have assessed the reliability of these approaches using blind out-of-sample evaluation, using new CMIP6 simulations as a proxy for real world historical and future responses. This has enabled us to look at the skill of each method across a range of metrics, which provides an objective assessment of a particular methodological approach.
