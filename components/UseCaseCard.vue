@@ -15,7 +15,7 @@
         <img :src="usecase[0].image" alt="storyboard preview" class="max-w-xs rounded-r-lg">
       </div>
       <!-- Add "in preparation badge" -->
-      <svg v-if="(title==='Alpine flash floods')|(title==='Atlas of (un)constrained climate projections')|(title==='Attribution of a small scale, heavy flash flood event to climate change')" width="156" height="36" class="absolute right-2 top-1">
+      <svg v-if="(title==='Alpine flash floods')|(title==='Attribution of a small scale, heavy flash flood event to climate change')" width="156" height="36" class="absolute right-2 top-1">
         <rect
           x="3"
           y="3"
