@@ -10,7 +10,7 @@ usecases:
     id: 1
     trl: low
     category: EUCP data and products
-    name: The EUCP Carribean runs
+    name: The EUCP Caribbean runs
     description: H. de Vries, et al. Royal Netherlands Meteorological Institute (KNMI).
 
   drought:
