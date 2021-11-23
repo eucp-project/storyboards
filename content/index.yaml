@@ -25,7 +25,7 @@ usecases:
     trl: low
     category: EUCP science and methodologies
     name: Comparing methods to constrain future climate projections
-    description: L. Brunner, et al. Swiss Federal Institute of Technology in Zürich (ETHZ).
+    description: L. Brunner, et al. ETH Zurich.
 
   infra:
     id: 4
@@ -110,6 +110,3 @@ usecases:
     category: Application of EUCP innovations
     name: Wind droughts in Europe
     description: Shuang Yu et al., IPSL
-
-
-  
