@@ -73,7 +73,7 @@ usecases:
     id: 10
     trl: medium
     category: EUCP science and methodologies
-    name: Multiple lines of evidence​
+    name: Multiple lines of evidence
     description: T. Crocker et al., MetOffice
 
   flood:
@@ -108,5 +108,5 @@ usecases:
     id: 15
     trl: high
     category: Application of EUCP innovations
-    name: Assessment and attribution of the changes in wind energy in Europe​
+    name: Assessment and attribution of the changes in wind energy in Europe
     description: Shuang Yu et al., IPSL
