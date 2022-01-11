@@ -22,7 +22,7 @@
     <!-- Panel image and accompanying text -->
     <div class="flex gap-2 overflow-auto h-full">
       <div class="w-2/3 bg-white rounded">
-        <img v-if="!panel.image.endsWith('html')" :src="panel.image" class="object-contain w-auto h-full max-w-full max-h-full mx-auto">
+        <img v-if="!panel.image.endsWith('html')" :src="this.getImage(panel.image)" class="object-contain w-auto h-full max-w-full max-h-full mx-auto">
         <iframe v-else :src="panel.image" frameborder="0" class="w-full h-full" />
       </div>
       <div class="w-1/3 bg-white rounded overflow-auto">
@@ -52,6 +52,11 @@ export default {
   data () {
     return {
       error: false
+    }
+  },
+  methods: {
+    getImage (path) {
+      return require(`~/content/${path}`)
     }
   }
 }
