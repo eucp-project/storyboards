@@ -60,3 +60,6 @@ For detailed explanation on how things work, check out the [documentation](https
 The source code (excluding the content) is licenced under Apache 2. You can fork
 this repo and add your own content, modify the styling, and do whatever you
 want. Don't hesitate to contact us if you're considering to reuse the software.
+
+# Reusing the storyboard materials
+The content of the storyboards is licenced under CC-BY 4.0.
