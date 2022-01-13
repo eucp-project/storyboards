@@ -1,9 +1,9 @@
 <template class="phantom">
-  <NuxtLink v-if="usecase.length > 0" :to="usecase[0].path">
+  <NuxtLink v-if="story.length > 0" :to="story[0].path">
     <!-- relative parent needed for absolute positioning of svg -->
     <div class="relative">
       <div class="flex flex-row bg-white shadow-xl max-w-xl rounded-lg h-48">
-        <!-- Usecase cards -->
+        <!-- story cards -->
         <div class="prose m-4">
           <h4>
             {{ title }}
@@ -12,7 +12,7 @@
             {{ description }}
           </p>
         </div>
-        <img :src="getImage(usecase[0].image)" alt="storyboard preview" class="max-w-xs rounded-r-lg">
+        <img :src="getImage(story[0].image)" alt="storyboard preview" class="max-w-xs rounded-r-lg">
       </div>
       <!-- Add "excluded from MUF" -->
       <svg v-if="title==='Multi-year prediction of drought and heat stress in the wheat sector'" width="176" height="36" class="absolute right-2 top-1">
@@ -45,7 +45,7 @@ export default {
       default: null,
       required: false
     },
-    usecase: {
+    story: {
       type: Array,
       default: () => [],
       required: false

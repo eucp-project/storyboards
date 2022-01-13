@@ -1,4 +1,4 @@
-# usecases
+# Storyboards
 
 ## Build Setup
 

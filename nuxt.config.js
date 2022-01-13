@@ -6,7 +6,7 @@ export default {
   ssr: false,
   router: {
     base: '/storyboards/',
-    middleware: 'usecases-dynamic-routes'
+    middleware: 'storyboards-dynamic-routes'
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head

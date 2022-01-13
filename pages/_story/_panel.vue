@@ -12,7 +12,7 @@
 
     <!-- Panels overview bar -->
     <div class="flex no-wrap text-left gap-2">
-      <NuxtLink v-for="panel of usecase" :key="panel.path" :to="`${panel.path}`">
+      <NuxtLink v-for="panel of story" :key="panel.path" :to="`${panel.path}`">
         <div class="flex-grow bg-white rounded p-3 prose">
           {{ panel.headline }}
         </div>
@@ -35,15 +35,15 @@
 <script>
 export default {
   async asyncData ({ $content, params }) {
-    const usecase = await $content(params.usecase)
+    const story = await $content(params.story)
       .sortBy('slug', 'asc')
       .fetch()
-    const panel = await $content(params.usecase, params.panel)
+    const panel = await $content(params.story, params.panel)
       .fetch()
     const index = await $content('index').fetch()
-    const title = index.usecases[params.usecase].name
+    const title = index.stories[params.story].name
     return {
-      usecase,
+      story,
       panel,
       params,
       title

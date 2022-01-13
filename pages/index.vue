@@ -14,13 +14,13 @@
         <h3 class="prose-xl w-full">
           {{ category }}
         </h3>
-        <!-- usecases -->
-        <UseCaseCard
-          v-for="(item, idx) in categorize(index.usecases, category)"
+        <!-- stories -->
+        <StoryCard
+          v-for="(item, idx) in categorize(index.stories, category)"
           :key="item.id"
           :title="item.name"
           :description="item.description"
-          :usecase="usecaseData[idx]"
+          :story="storyData[idx]"
         />
       </div>
     </div>
@@ -32,17 +32,17 @@ export default {
   data () {
     return {
       index: {},
-      usecaseData: {},
+      storyData: {},
       categories: [],
       error: false
     }
   },
   async mounted () {
     const index = await this.$content('index').fetch()
-    const usecases = index.usecases
-    for (const usecase in usecases) {
-      this.usecaseData[usecase] = await this.$content(usecase).sortBy('slug', 'asc').fetch().catch(e => console.log(e))
-      const category = usecases[usecase].category
+    const stories = index.stories
+    for (const story in stories) {
+      this.storyData[story] = await this.$content(story).sortBy('slug', 'asc').fetch().catch(e => console.log(e))
+      const category = stories[story].category
       if (!this.categories.includes(category)) {
         this.categories.push(category)
       }
@@ -50,11 +50,11 @@ export default {
     this.index = index // why does it not work if we assign the result of fetch directly to this.index?
   },
   methods: {
-    categorize (usecases, category) {
+    categorize (stories, category) {
       const items = {}
-      for (const usecase in usecases) {
-        if (usecases[usecase].category === category) {
-          items[usecase] = usecases[usecase]
+      for (const story in stories) {
+        if (stories[story].category === category) {
+          items[story] = stories[story]
         }
       }
       return items
