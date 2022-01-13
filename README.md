@@ -1,6 +1,42 @@
 # Storyboards
 
-## Build Setup
+This repository contains the source code for the
+[EUCP](https://www.eucp-project.eu/) [Storyboard
+website](https://eucp-project.github.io/storyboards/).
+
+The website has been built with [Nuxt](https://nuxtjs.org), using
+[nuxt-content](https://content.nuxtjs.org/) for authoring stories and
+[tailwindcss](https://tailwindcss.com/docs/installation) + [tailwind
+typography](https://tailwindcss.com/docs/typography-plugin) for styling. It is
+hosted on [GitHub pages](https://nuxtjs.org/deployments/github-pages/).
+
+## Adding a storyboard
+
+All stories are stored in the `content` folder. To add a story, currently you have to go through the following steps:
+
+- Add a new folder in the `content` folder, which will contain your story
+- Make one markdown file for each panel. They will be show up in the storyboard
+  sorted alphabetically by filename.
+- Each markdown file should include the following yaml frontmatter: a headline
+  and an image (or standalone HTML page). That image should be included in the
+  same folder, but the path should also include the folder name.
+- Find the `index.yaml` file in the `content` directory and add a new entry
+  describing your story there. Note that the name of the story in this entry
+  should correspond to the directory name that you have chosen for your story.
+
+We are currently investigating several options to make this process (and the
+format of the stories) simpler still.
+
+## Making a pull request
+
+If you want your story to be included on the main site, you can make a pull
+request. We will review it and if everything is okay, we'll merge the story into
+the main branch. Continous deployment will then automatically update the site.
+
+## Serving the site locally
+
+The following instructions are the default instructions from a new nuxt project.
+After cloning the repository:
 
 ```bash
 # install dependencies
@@ -19,51 +55,8 @@ $ npm run generate
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
-## Special Directories
+# Reusing the storyboards format for a different project
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+The source code (excluding the content) is licenced under Apache 2. You can fork
+this repo and add your own content, modify the styling, and do whatever you
+want. Don't hesitate to contact us if you're considering to reuse the software.
