@@ -57,7 +57,7 @@ For detailed explanation on how things work, check out the [documentation](https
 
 # Reusing the storyboards format for a different project
 
-The source code (excluding the content) is licenced under Apache 2. You can fork
+The source code (excluding the stories content) is licenced under Apache 2. You can fork
 this repo and add your own content, modify the styling, and do whatever you
 want. Don't hesitate to contact us if you're considering to reuse the software.
 

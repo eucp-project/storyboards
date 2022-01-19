@@ -47,19 +47,19 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '~plugins/remark-panels',
+    '~plugins/remark-chapters',
     // https://go.nuxtjs.dev/content
     '@nuxt/content'
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
-    // dir: 'content',
+    dir: 'stories',
     markdown: {
       remarkPlugins: [
         // 'remark-sectionize',
         'remark-directive',
-        '~/plugins/remark-panels.js'
+        '~/plugins/remark-chapters.js'
       ]
     }
   },
