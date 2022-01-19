@@ -47,6 +47,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '~plugins/remark-panels',
     // https://go.nuxtjs.dev/content
     '@nuxt/content'
   ],
@@ -56,7 +57,9 @@ export default {
     // dir: 'content',
     markdown: {
       remarkPlugins: [
-        'remark-sectionize'
+        // 'remark-sectionize',
+        'remark-directive',
+        '~/plugins/remark-panels.js'
       ]
     }
   },

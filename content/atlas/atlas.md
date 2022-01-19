@@ -6,10 +6,8 @@ name: Atlas of (un)constrained climate projections
 description: B. Booth et al., UK Met Office
 ---
 
-## Introduction
-image: "atlas/ipcc.png"
-
-### Observationally constrained projections gaining greater visibility
+:::Panel{headline=Introduction image=ipcc.png}
+## Observationally constrained projections gaining greater visibility
 Observations have been used to constrain climate projection spread in National Climate Scenarios (e.g. Swiss, UK, Australian) but have not yet been commonly applied elsewhere.  They represent a way to assess which existing climate projections are more plausible given how well they reproduce historical climate.  They are starting to see wider adoption and can be an important tool in the climate projection toolbox.
 
 Observational constraints used in IPCC to provide context, given many more high
@@ -20,20 +18,17 @@ temperature response simulations that are not thought to be more likely.
 > multi-model projections with observational constraints based on past simulated
 > warming, as well as the AR6 assessment of climate sensitivity.
 > -- <cite>Summary for Policy Makers, AR6, IPCC</cite>
+:::
 
-## Underlying understanding
-image: atlas/methods.png
-
-### EUCP has led underlying work to understand user value in these approaches
+:::Panel{headline="Underlying understanding" image=methods.png}
+## EUCP has led underlying work to understand user value in these approaches
 The work within EUCP has been on understanding different potential quantitative approaches to using historical validation of current projections. We provided the first common evaluation of their projected changes, across a range of currently available methodologies.
 
 We have assessed the reliability of these approaches using blind out-of-sample evaluation, using new CMIP6 simulations as a proxy for real world historical and future responses. This has enabled us to look at the skill of each method across a range of metrics, which provides an objective assessment of a particular methodological approach.
+:::
 
-
-## headline: Assessing the value added
-image: atlas/summary.png
-
-### Assessing the value added
+:::Panel{headline="Assessing the value added" image=summary.png}
+## Assessing the value added
 
 An important output from our EUCP work has been to develop an objective assessment of the value added by using a methodology that uses observations to validate projections. We coordinated a blind common out-of-sample assessment of each method’s skill, using new CMIP6 simulations as pseudo-observations and then validated the constrained projections using the future CMIP6 responses.
 
@@ -48,11 +43,10 @@ out-of-sample analysis, we find that:
 These results also point to where using a particular methodology can actually make the results worse than just using the CMIP spread. Rainfall projections are worse using ASK, whereas CALL showed poor results in the Mediterranean for temperature. These issues relate to the particular properties of the methodologies that make them more or less suitable for some applications.
 
 The summary of the out-of-sample assessment, presented here, provides a guide to where applying one of these methodologies is likely to add value.
+:::
 
-## Atlas
-image: atlas/comparing.png
-
-### Atlas of (un)constrained projections
+:::Panel{headline=Atlas image=comparing.png}
+## Atlas of (un)constrained projections
 Given the added skill in these methods, we have been working to make this data
 more widely available.
 
@@ -64,19 +58,18 @@ questions.
 The Atlas has its own DOI:
 [10.5281/zenodo.5654741](https://doi.org/10.5281/zenodo.5654741). Source code is
 [available on GitHub](https://github.com/eucp-project/atlas/).
+:::
 
-## Guidance
-image: atlas/example_user.png
 
+:::Panel{headline=guidance image=example_user.png}
 ### Example use cases
 To provide guidance on how to use the constrained projections, we have worked
 out 4 hypothetical use cases.
 
 These use cases are also available in the atlas.
+:::
 
-## Data availability
-image: atlas/zenodo.png
-
+:::Panel{headline="Data availability" image=zenodo.png}
 ### Data availability
 
 We have gone to great lengths to provide the data from different methods in a
@@ -86,3 +79,4 @@ CF-conventions.
 The data is available through Zenodo and can be cited using the information
 provided there. Its DOI is
 [10.5281/zenodo.5645153](https://doi.org/10.5281/zenodo.5645153)
+:::
