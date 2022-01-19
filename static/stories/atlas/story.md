@@ -4,7 +4,7 @@ trl: medium
 category: EUCP data and products
 title: Atlas of (un)constrained climate projections
 author: B. Booth et al., UK Met Office
-featured-image: atlas.png
+featured-image: "comparing.png"
 ---
 
 :::chapter{headline=Introduction image=ipcc.png}
@@ -31,7 +31,7 @@ We have assessed the reliability of these approaches using blind out-of-sample e
 :::chapter{headline="Assessing the value added" image=summary.png}
 ## Assessing the value added
 
-An important output from our EUCP work has been to develop an objective assessment of the value added by using a methodology that uses observations to validate projections. We coordinated a blind common out-of-sample assessment of each method’s skill, using new CMIP6 simulations as pseudo-observations and then validated the constrained projections using the future CMIP6 responses.
+An important output from our EUCP work has been to develop an objective assessment of the value added by using a methodology that uses observations to validate projections. We coordinated a blind common out-of-sample assessment of each method's skill, using new CMIP6 simulations as pseudo-observations and then validated the constrained projections using the future CMIP6 responses.
 
 This is a tough test of the methods as CMIP6 includes process not represented in earlier climate projection and includes some projected changes that lie outside this range. This enabled us to assess to identified where these methods provided more reliable estimates than just taking the raw climate model range.
 

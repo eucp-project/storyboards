@@ -16,11 +16,12 @@
         </h3>
         <!-- stories -->
         <StoryCard
-          v-for="(item, idx) in categorize(index.stories, category)"
-          :key="item.id"
-          :title="item.name"
-          :description="item.description"
-          :story="storyData[idx]"
+          v-for="story in stories.filter(story => story.category === category)"
+          :key="story.id"
+          :title="story.title"
+          :author="story.author"
+          :image="story.image"
+          :url="story.name"
         />
       </div>
     </div>
@@ -29,47 +30,20 @@
 
 <script>
 export default {
-  data () {
-    return {
-      index: {},
-      storyData: {},
-      categories: [],
-      error: false
-    }
-  },
-  async mounted () {
-    const index = await this.$content('index').fetch()
-    const stories = index.stories
-    for (const story in stories) {
-      this.storyData[story] = await this.$content(story).sortBy('slug', 'asc').fetch().catch(e => console.log(e))
-      const category = stories[story].category
-      if (!this.categories.includes(category)) {
-        this.categories.push(category)
+  async asyncData (context) {
+    const stories = []
+    const categories = []
+    const index = await context.$content('index').fetch()
+    index.stories.forEach(async (name) => {
+      const story = await context.$content(name, 'story').only(['id', 'slug', 'title', 'author', 'featured-image', 'category']).fetch().catch(e => console.log(e))
+      story.name = name
+      story.image = `/stories/${name}/${story['featured-image']}`
+      stories.push(story)
+      if (!categories.includes(story.category)) {
+        categories.push(story.category)
       }
-    }
-    this.index = index // why does it not work if we assign the result of fetch directly to this.index?
-  },
-  methods: {
-    categorize (stories, category) {
-      const items = {}
-      for (const story in stories) {
-        if (stories[story].category === category) {
-          items[story] = stories[story]
-        }
-      }
-      return items
-    },
-    parse_trl (trl) {
-      if (trl === 'low') {
-        return 'Technical readiness level: low; research still in exploratory phase'
-      } else if (trl === 'medium') {
-        return 'Technical readiness level: medium; advanced science / generalization beyond initial proof of concept'
-      } else if (trl === 'high') {
-        return 'Technical readiness level: high; applied science / (almost) ready for operational use'
-      } else {
-        return 'Miscellaneous'
-      }
-    }
+    })
+    return { stories, categories }
   }
 }
 </script>
