@@ -12,7 +12,7 @@
             {{ description }}
           </p>
         </div>
-        <img :src="getImage(story[0].image)" alt="storyboard preview" class="max-w-xs rounded-r-lg">
+        <img :src="getImage(story[0].featured-image)" alt="storyboard preview" class="max-w-xs rounded-r-lg">
       </div>
       <!-- Add "excluded from MUF" -->
       <svg v-if="title==='Multi-year prediction of drought and heat stress in the wheat sector'" width="176" height="36" class="absolute right-2 top-1">
@@ -56,7 +56,7 @@ export default {
       return arr.reverse()
     },
     getImage (path) {
-      return require(`~/stories/${path}`)
+      return `/stories/${path}`
     }
   }
 }

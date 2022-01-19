@@ -22,8 +22,8 @@
     <!-- Chapter image and description -->
     <div v-for="(chapter, idx) in chapters" v-show="idx===currentChapter" :key="idx" class="flex gap-2 overflow-auto h-full">
       <div class="w-2/3 bg-white rounded">
-        <img v-if="!chapter.props.image.endsWith('html')" :src="getImage(chapter.props.image)" class="object-contain w-auto h-full max-w-full max-h-full mx-auto">
-        <iframe v-else :src="chapter.props.image" frameborder="0" class="w-full h-full" />
+        <img v-if="!chapter.props.image.endsWith('html')" :src="getContent(chapter.props.image)" class="object-contain w-auto h-full max-w-full max-h-full mx-auto">
+        <iframe v-else :src="getContent(chapter.props.image)" frameborder="0" class="w-full h-full" />
       </div>
       <div class="prose px-4 w-1/3 bg-white rounded overflow-auto">
         <nuxt-content :document="chapter" />
@@ -51,8 +51,8 @@ export default {
     }
   },
   methods: {
-    getImage (path) {
-      return require(`~/stories/${this.params.story}/${path}`)
+    getContent (path) {
+      return `/stories/${this.params.story}/${path}`
     },
     toggleChapter (i) {
       this.currentChapter = i
