@@ -56,7 +56,7 @@ export default {
       return arr.reverse()
     },
     getImage (path) {
-      return require(`~/content/${path}`)
+      return require(`~/stories/${path}`)
     }
   }
 }

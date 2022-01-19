@@ -35,14 +35,14 @@
 <script>
 export default {
   async asyncData ({ $content, params }) {
-    const story = await $content(params.story, params.story).fetch() // look for the file 'story.md' in each folder in 'stories'.
+    const story = await $content(params.story, 'story').fetch() // look for the file 'story.md' in each folder in 'stories'.
     const chapters = story.body.children
       .filter(child => child.tag === 'chapter')
       .map((child) => {
         return { body: { children: child.children }, props: child.props }
       })
     const headlines = chapters.map(chapter => chapter.props.headline)
-    return { story, headlines, chapters }
+    return { params, story, headlines, chapters }
   },
   data () {
     return {
@@ -52,7 +52,7 @@ export default {
   },
   methods: {
     getImage (path) {
-      return require(`~/content/${path}`)
+      return require(`~/stories/${this.params.story}/${path}`)
     },
     toggleChapter (i) {
       this.currentChapter = i
