@@ -10,24 +10,23 @@
       </h1>
     </div>
 
-    <!-- Panels overview bar -->
+    <!-- Chapter overview bar -->
     <div class="flex no-wrap text-left gap-2">
-      <div v-for="headline of headlines" :key="headline">
-        <div class="flex-grow bg-white rounded p-3 prose">
+      <div v-for="(headline, idx) of headlines" :key="idx">
+        <div role="button" @click="toggleChapter(idx)" class="flex-grow bg-white rounded p-3 prose">
           {{ headline }}
         </div>
       </div>
     </div>
 
-    <!-- Panel image and accompanying text -->
-    <div class="flex gap-2 overflow-auto h-full">
+    <!-- Chapter image and description -->
+    <div v-for="(chapter, idx) in chapters" v-show="idx===currentChapter" :key="idx" class="flex gap-2 overflow-auto h-full">
       <div class="w-2/3 bg-white rounded">
-        <!-- <img v-if="!panel.image.endsWith('html')" :src="this.getImage(panel.image)" class="object-contain w-auto h-full max-w-full max-h-full mx-auto">
-        <iframe v-else :src="panel.image" frameborder="0" class="w-full h-full" /> -->
-        <pre id="json">{{ JSON.stringify(story, undefined, 2) }}</pre>
+        <img v-if="!chapter.props.image.endsWith('html')" :src="getImage(chapter.props.image)" class="object-contain w-auto h-full max-w-full max-h-full mx-auto">
+        <iframe v-else :src="chapter.props.image" frameborder="0" class="w-full h-full" />
       </div>
-      <div class="w-1/3 bg-white rounded overflow-auto">
-        <nuxt-content :document="story" class="prose m-4" />
+      <div class="prose px-4 w-1/3 bg-white rounded overflow-auto">
+        <nuxt-content :document="chapter" />
       </div>
     </div>
   </div>
@@ -37,17 +36,26 @@
 export default {
   async asyncData ({ $content, params }) {
     const story = await $content(params.story, params.story).fetch() // look for the file 'story.md' in each folder in 'stories'.
-    const headlines = story.toc.map(entry => entry.text)
-    return { story, headlines }
+    const chapters = story.body.children
+      .filter(child => child.tag === 'chapter')
+      .map((child) => {
+        return { body: { children: child.children }, props: child.props }
+      })
+    const headlines = chapters.map(chapter => chapter.props.headline)
+    return { story, headlines, chapters }
   },
   data () {
     return {
-      error: false
+      error: false,
+      currentChapter: 0
     }
   },
   methods: {
     getImage (path) {
       return require(`~/content/${path}`)
+    },
+    toggleChapter (i) {
+      this.currentChapter = i
     }
   }
 }

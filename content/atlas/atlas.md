@@ -2,11 +2,11 @@
 id: 13
 trl: medium
 category: EUCP data and products
-name: Atlas of (un)constrained climate projections
+title: Atlas of (un)constrained climate projections
 description: B. Booth et al., UK Met Office
 ---
 
-:::Panel{headline=Introduction image=ipcc.png}
+:::chapter{headline=Introduction image=atlas/ipcc.png}
 ## Observationally constrained projections gaining greater visibility
 Observations have been used to constrain climate projection spread in National Climate Scenarios (e.g. Swiss, UK, Australian) but have not yet been commonly applied elsewhere.  They represent a way to assess which existing climate projections are more plausible given how well they reproduce historical climate.  They are starting to see wider adoption and can be an important tool in the climate projection toolbox.
 
@@ -20,14 +20,14 @@ temperature response simulations that are not thought to be more likely.
 > -- <cite>Summary for Policy Makers, AR6, IPCC</cite>
 :::
 
-:::Panel{headline="Underlying understanding" image=methods.png}
+:::chapter{headline="Underlying understanding" image=atlas/methods.png}
 ## EUCP has led underlying work to understand user value in these approaches
 The work within EUCP has been on understanding different potential quantitative approaches to using historical validation of current projections. We provided the first common evaluation of their projected changes, across a range of currently available methodologies.
 
 We have assessed the reliability of these approaches using blind out-of-sample evaluation, using new CMIP6 simulations as a proxy for real world historical and future responses. This has enabled us to look at the skill of each method across a range of metrics, which provides an objective assessment of a particular methodological approach.
 :::
 
-:::Panel{headline="Assessing the value added" image=summary.png}
+:::chapter{headline="Assessing the value added" image=atlas/summary.png}
 ## Assessing the value added
 
 An important output from our EUCP work has been to develop an objective assessment of the value added by using a methodology that uses observations to validate projections. We coordinated a blind common out-of-sample assessment of each method’s skill, using new CMIP6 simulations as pseudo-observations and then validated the constrained projections using the future CMIP6 responses.
@@ -45,7 +45,7 @@ These results also point to where using a particular methodology can actually ma
 The summary of the out-of-sample assessment, presented here, provides a guide to where applying one of these methodologies is likely to add value.
 :::
 
-:::Panel{headline=Atlas image=comparing.png}
+:::chapter{headline=Atlas image=atlas/comparing.png}
 ## Atlas of (un)constrained projections
 Given the added skill in these methods, we have been working to make this data
 more widely available.
@@ -61,7 +61,7 @@ The Atlas has its own DOI:
 :::
 
 
-:::Panel{headline=guidance image=example_user.png}
+:::chapter{headline=Guidance image=atlas/example_user.png}
 ### Example use cases
 To provide guidance on how to use the constrained projections, we have worked
 out 4 hypothetical use cases.
@@ -69,7 +69,7 @@ out 4 hypothetical use cases.
 These use cases are also available in the atlas.
 :::
 
-:::Panel{headline="Data availability" image=zenodo.png}
+:::chapter{headline="Data availability" image=atlas/zenodo.png}
 ### Data availability
 
 We have gone to great lengths to provide the data from different methods in a
