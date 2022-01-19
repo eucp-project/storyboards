@@ -35,7 +35,7 @@
 <script>
 export default {
   async asyncData ({ $content, params }) {
-    const story = await $content(params.story, 'story').fetch() // look for the file 'story.md' in each folder in 'stories'.
+    const story = await $content(params.story).fetch()
     const chapters = story.body.children
       .filter(child => child.tag === 'chapter')
       .map((child) => {
@@ -52,7 +52,7 @@ export default {
   },
   methods: {
     getContent (path) {
-      return `/stories/${this.params.story}/${path}`
+      return `/stories/_${this.params.story}/${path}`
     },
     toggleChapter (i) {
       this.currentChapter = i

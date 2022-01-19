@@ -1,6 +1,6 @@
 <template>
   <NuxtLink :to="url">
-    <!-- relative parent needed for absolute positioning of svg -->
+    <!-- relative parent needed for absolute positioning of svg badges-->
     <div class="relative">
       <div class="flex flex-row bg-white shadow-xl max-w-xl rounded-lg h-48">
         <!-- story cards -->

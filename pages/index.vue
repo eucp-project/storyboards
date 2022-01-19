@@ -2,13 +2,16 @@
   <div class="flex flex-col w-screen h-screen bg-gray-200 overflow-auto">
     <!-- Banner -->
     <div class="flex gap-10 m-2 items-center">
-      <img src="~/static/eucp_logo.png" alt="EUCP Logo">
+      <img src="eucp_logo.png" alt="EUCP Logo">
       <h1 class="text-2xl">
         Overview of EUCP Storyboards
       </h1>
     </div>
 
     <div class="flex flex-col m-2 gap-2">
+      <!-- search -->
+      <input v-model="query" type="search" class="w-1/3 m-4 p-2 self-center" placeholder="search"></input>
+
       <!-- categories -->
       <div v-for="(category, key) in categories" :key="key" class="flex flex-wrap gap-4 mb-8">
         <h3 class="prose-xl w-full">
@@ -20,8 +23,8 @@
           :key="story.id"
           :title="story.title"
           :author="story.author"
-          :image="story.image"
-          :url="story.name"
+          :image="`/stories/_${story.slug}/${story['featured-image']}`"
+          :url="story.slug"
         />
       </div>
     </div>
@@ -31,19 +34,30 @@
 <script>
 export default {
   async asyncData (context) {
-    const stories = []
-    const categories = []
-    const index = await context.$content('index').fetch()
-    index.stories.forEach(async (name) => {
-      const story = await context.$content(name, 'story').only(['id', 'slug', 'title', 'author', 'featured-image', 'category']).fetch().catch(e => console.log(e))
-      story.name = name
-      story.image = `/stories/${name}/${story['featured-image']}`
-      stories.push(story)
-      if (!categories.includes(story.category)) {
-        categories.push(story.category)
-      }
-    })
+    const stories = await context.$content()
+      .only(['id', 'slug', 'title', 'author', 'featured-image', 'category'])
+      .fetch()
+      .catch(e => console.log(e))
+
+    const categories = stories
+      .map(story => story.category)
+      .filter((v, i, a) => a.indexOf(v) === i)
+
     return { stories, categories }
+  },
+  data () {
+    return {
+      query: ''
+    }
+  },
+  watch: {
+    async query (query) {
+      this.stories = await this.$content()
+        .only(['id', 'slug', 'title', 'author', 'featured-image', 'category'])
+        .search(query)
+        .fetch()
+        .catch(e => console.log(e))
+    }
   }
 }
 </script>
