@@ -10,33 +10,79 @@ The website has been built with [Nuxt](https://nuxtjs.org), using
 typography](https://tailwindcss.com/docs/typography-plugin) for styling. It is
 hosted on [GitHub pages](https://nuxtjs.org/deployments/github-pages/).
 
-## Adding a storyboard
+## Writing a story
 
-All stories are stored in the `content` folder. To add a story, currently you have to go through the following steps:
+All stories are stored in the `static/stories` folder. Each story consists of a
+markdown file and a folder with some assets (images, etc.) belonging to the
+story. In addition to standard markdown, the `:::Chapter{}` directive is used to
+break the story into parts that can be displayed individually.
 
-- Add a new folder in the `content` folder, which will contain your story
-- Make one markdown file for each panel. They will be show up in the storyboard
-  sorted alphabetically by filename.
-- Each markdown file should include the following yaml frontmatter: a headline
-  and an image (or standalone HTML page). That image should be included in the
-  same folder, but the path should also include the folder name.
-- Find the `index.yaml` file in the `content` directory and add a new entry
-  describing your story there. Note that the name of the story in this entry
-  should correspond to the directory name that you have chosen for your story.
+An example story might look like this:
 
-We are currently investigating several options to make this process (and the
-format of the stories) simpler still.
+`static/stories/example-story.md`
+```markdown
+---
+title: Atlas of (un)constrained climate projections
+author: B. Booth et al., UK Met Office
+thumbnail: "comparing.png"
+category: EUCP data and products
+trl: medium
+id: 13
+---
+:::Chapter{headline="Introduction" image="intro.png"}
+## This is the first Chapter
+You can format text using markdown.
 
-## Making a pull request
+The headline property will be used for the chapter navigation blocks.
 
-If you want your story to be included on the main site, you can make a pull
-request. We will review it and if everything is okay, we'll merge the story into
-the main branch. Continous deployment will then automatically update the site.
+The image property will be used for the main display image of this chapter.
+
+Even though it's called 'image', you can also add standalone HTML pages, such as
+an exported mapbox file.
+
+The three colons below mark the end of the first chapter.
+:::
+
+:::Chapter{headline="Methods" image="concept.png"}
+## This is the second Chapter
+
+and so on...
+:::
+```
+
+The images should be stored in a directory with the same name as the story, but
+with a leading underscore, like so:
+
+```bash
+- static/
+  - stories/
+    - example-story.md
+    - _example-story/
+      - intro.png
+      - concept.png
+```
+
+The frontmatter (title, author, etc.) will be used to show the story on the
+stories overview page. The ID and TRL (technical readiness level) properties are
+currently not used, but they are still here for legacy reasons.
+
+## Adding your story to our collection
+
+If you want your story to be included on
+[eucp-project.github.io/storyboards](https://eucp-project.github.io/storyboards),
+you can make a pull request to this repository. We will review it and if
+everything is okay, we'll merge the story into the main branch. Continous
+deployment will then automatically update the site.
+
+If you want to add a story but are unsure about the github workflow, please
+don't hesitate to get in touch. We are happy to help.
 
 ## Serving the site locally
 
-The following instructions are the default instructions from a new nuxt project.
-After cloning the repository:
+You can also make a local build of the site, if you want to check that your
+story is formatted correctly before making a pull request. The following
+instructions are the default instructions from a new nuxt project. After cloning
+the repository:
 
 ```bash
 # install dependencies
@@ -57,9 +103,11 @@ For detailed explanation on how things work, check out the [documentation](https
 
 # Reusing the storyboards format for a different project
 
-The source code (excluding the stories content) is licenced under Apache 2. You can fork
-this repo and add your own content, modify the styling, and do whatever you
-want. Don't hesitate to contact us if you're considering to reuse the software.
+The source code (excluding the stories content) is licenced under Apache 2. You
+can fork this repo and add your own content, modify the styling, and do whatever
+you want. We'd appreciate it if you inform us about your re-using the software.
+We're also happy to help setting it up for you.
 
 # Reusing the storyboard materials
-The content of the storyboards is licenced under CC-BY 4.0.
+The content of the storyboards is licenced under CC-BY 4.0. Please don't
+hesitate to contact the storyboard authors if you're interested in their work.
