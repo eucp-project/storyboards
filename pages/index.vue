@@ -23,7 +23,7 @@
           :key="story.id"
           :title="story.title"
           :author="story.author"
-          :image="`/stories/_${story.slug}/${story['featured-image']}`"
+          :thumbnail="`/stories/_${story.slug}/${story.thumbnail}`"
           :url="story.slug"
         />
       </div>
@@ -35,7 +35,7 @@
 export default {
   async asyncData (context) {
     const stories = await context.$content()
-      .only(['id', 'slug', 'title', 'author', 'featured-image', 'category'])
+      .only(['id', 'slug', 'title', 'author', 'thumbnail', 'category'])
       .fetch()
       .catch(e => console.log(e))
 
@@ -53,7 +53,7 @@ export default {
   watch: {
     async query (query) {
       this.stories = await this.$content()
-        .only(['id', 'slug', 'title', 'author', 'featured-image', 'category'])
+        .only(['id', 'slug', 'title', 'author', 'thumbnail', 'category'])
         .search(query)
         .fetch()
         .catch(e => console.log(e))

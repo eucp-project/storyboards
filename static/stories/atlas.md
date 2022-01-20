@@ -4,7 +4,7 @@ trl: medium
 category: EUCP data and products
 title: Atlas of (un)constrained climate projections
 author: B. Booth et al., UK Met Office
-featured-image: "comparing.png"
+thumbnail: "comparing.png"
 ---
 
 :::Chapter{headline=Introduction image=ipcc.png}

@@ -4,7 +4,7 @@ trl: medium
 category: EUCP science and methodologies
 title: Quasi-stationary intense rainstorms spread across Europe under climate change
 author: A. Kahraman, et al. Newcastle University.
-featured-image: background.png
+thumbnail: background.png
 ---
 
 :::Chapter{headline="Background" image="background.png"}

@@ -4,7 +4,7 @@ trl: low
 category: EUCP science and methodologies
 title: Comparing methods to constrain future climate projections
 author: L. Brunner, et al. ETH Zurich.
-featured-image: constraining_papers_collage.png
+thumbnail: constraining_papers_collage.png
 ---
 
 :::Chapter{headline="Introduction" image="constraining_papers_collage.png"}

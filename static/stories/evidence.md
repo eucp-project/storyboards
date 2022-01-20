@@ -4,7 +4,7 @@ trl: medium
 category: EUCP science and methodologies
 title: Multiple lines of evidence
 author: T. Crocker et al., MetOffice
-featured-image: "intro_lines.png"
+thumbnail: "intro_lines.png"
 ---
 
 :::Chapter{headline="Introduction and aim" image="intro_lines.png"}

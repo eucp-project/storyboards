@@ -4,7 +4,7 @@ trl: high
 category: Application of EUCP innovations
 title: Estimating regionalized hydrological impacts of climate change over Europe
 author: F. Sperna Weiland et al., Deltares
-featured-image: panel_1.png
+thumbnail: panel_1.png
 ---
 :::Chapter{headline="Constructing a multi-model ensemble" image="panel_1.png"}
 

@@ -4,7 +4,7 @@ trl: medium
 category: Application of EUCP innovations
 title: Attribution of a small scale, heavy flash flood event to climate change
 author: D. Matte et al., University of Copenhagen
-featured-image: radar.gif
+thumbnail: radar.gif
 ---
 
 :::Chapter{headline="The Copenhagen flood of 2011" image="radar.gif"}

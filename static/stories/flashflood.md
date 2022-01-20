@@ -4,7 +4,7 @@ trl: high
 category: Application of EUCP innovations
 title: Alpine flash floods
 author: M. Zander, et al. Deltares.
-featured-image: intro_eucp.png
+thumbnail: intro_eucp.png
 ---
 
 :::Chapter{headline="Introduction-EUCP data" image="intro_eucp.png"}

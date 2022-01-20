@@ -4,7 +4,7 @@ trl: low
 category: EUCP data and products
 title: The EUCP Caribbean runs
 author: H. de Vries, et al. Royal Netherlands Meteorological Institute (KNMI).
-featured-image: carribean.png
+thumbnail: carribean.png
 ---
 
 :::chapter{headline=Introduction image=carribean.png}

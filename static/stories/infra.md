@@ -4,7 +4,7 @@ trl: high
 category: EUCP data and products
 title: Infrastructure in support of EUropean Climate Prediction
 author: P. Kalverla et al. Netherlands eScience Center.
-featured-image: "steroids.png"
+thumbnail: "steroids.png"
 ---
 
 :::Chapter{headline="Introduction" image="steroids.png"}

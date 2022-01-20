@@ -12,7 +12,7 @@
             {{ author }}
           </p>
         </div>
-        <img :src="image" alt="storyboard preview" class="max-w-xs rounded-r-lg">
+        <img :src="thumbnail" alt="storyboard preview" class="max-w-xs rounded-r-lg">
       </div>
     </div>
   </NuxtLink>
@@ -21,6 +21,6 @@
 <script>
 
 export default {
-  props: ['title', 'author', 'image', 'url']
+  props: ['title', 'author', 'thumbnail', 'url']
 }
 </script>

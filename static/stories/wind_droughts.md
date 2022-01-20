@@ -4,7 +4,7 @@ trl: high
 category: Application of EUCP innovations
 title: Assessment and attribution of the changes in wind energy in Europe
 author: Shuang Yu et al., IPSL
-featured-image: "intro.png"
+thumbnail: "intro.png"
 ---
 :::Chapter{headline="Introduction" image="intro.png"}
 ## Introduction

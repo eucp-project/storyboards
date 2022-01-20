@@ -4,7 +4,7 @@ trl: high
 category: Application of EUCP innovations
 title: Multi-year prediction of drought and heat stress in the wheat sector
 author: B. Solaraju-Murali, et al. Barcelona Supercomputing Center.
-featured-image: "img_1.png"
+thumbnail: "img_1.png"
 ---
 
 :::Chapter{headline="Introduction and Aim" image="img_1.png"}

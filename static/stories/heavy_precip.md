@@ -4,7 +4,7 @@ trl: medium
 category: EUCP data and products
 title: Representation and identification of 3 historic "Heavy Precipitation Events"
 author: S. Muller, et al., International Centre for Theoretical Physics (ICTP)
-featured-image: "intro.png"
+thumbnail: "intro.png"
 ---
 
 :::Chapter{headline="Introduction" image="intro.png"}

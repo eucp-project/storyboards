@@ -4,7 +4,7 @@ trl: high
 category: EUCP science and methodologies
 title: Skillful decadal prediction of southern European summer temperature
 authors: L. F. Borchert, et al. Institut Pierre Simon Laplace (IPSL).
-featured-image: "correlation.png"
+thumbnail: "correlation.png"
 ---
 
 :::Chapter{headline="Problem" image="correlation.png"}

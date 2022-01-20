@@ -4,7 +4,7 @@ trl: low
 category: EUCP data and products
 title: Benefits and added value of convection-permitting climate modeling over Fenno-Scandinavia
 author: Petter Lind et al., SMHI
-featured-image: modelling.png
+thumbnail: modelling.png
 ---
 
 :::Chapter{headline="Convection-permitting modeling in Fenno-Scandinavia" image="modelling.png"}

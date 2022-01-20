@@ -4,7 +4,7 @@ trl: high
 category: Application of EUCP innovations
 title: Sandy beach erosion induced by sea level rise
 author: P. Athanasiou, et al. Deltares.
-featured-image: overview.png
+thumbnail: overview.png
 ---
 
 :::Chapter{headline="Introduction" image="overview.png"}

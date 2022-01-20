@@ -4,7 +4,7 @@ trl: medium
 category: EUCP science and methodologies
 title: Physical storylines of future European drought events
 author: K. van der Wiel, et al. Royal Netherlands Meteorological Institute (KNMI).
-featured-image: img_1.gif
+thumbnail: img_1.gif
 ---
 
 :::Chapter{headline="Advantages of large ensemble simulations" image="img_1.gif"}
