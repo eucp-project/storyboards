@@ -54,6 +54,8 @@ export default {
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
+    fullTextSearchFields: ['id', 'slug', 'title', 'author', 'thumbnail', 'category'],
+
     dir: 'static/stories',
     markdown: {
       remarkPlugins: [
