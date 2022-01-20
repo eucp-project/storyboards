@@ -57,7 +57,6 @@ export default {
     dir: 'static/stories',
     markdown: {
       remarkPlugins: [
-        // 'remark-sectionize',
         'remark-directive',
         '~/plugins/remark-chapters.js'
       ]
