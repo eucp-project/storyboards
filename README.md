@@ -22,11 +22,11 @@ An example story might look like this:
 `static/stories/example-story.md`
 ```markdown
 ---
-title: Atlas of (un)constrained climate projections
-author: B. Booth et al., UK Met Office
-thumbnail: "comparing.png"
+title: Example story
+author: Peter Kalverla et al., Netherlands eScience Center
+thumbnail: "intro.png"
 category: EUCP data and products
-trl: medium
+trl: high
 id: 13
 ---
 :::Chapter{headline="Introduction" image="intro.png"}
@@ -49,6 +49,10 @@ The three colons below mark the end of the first chapter.
 and so on...
 :::
 ```
+
+This produces the following layout:
+
+![Screenshot of example-story](example-story.png)
 
 The images should be stored in a directory with the same name as the story, but
 with a leading underscore, like so:
