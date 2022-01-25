@@ -52,7 +52,7 @@ export default {
   },
   methods: {
     getContent (path) {
-      return `/stories/_${this.params.story}/${path}`
+      return `stories/_${this.params.story}/${path}`
     },
     toggleChapter (i) {
       this.currentChapter = i

@@ -23,7 +23,7 @@
           :key="story.id"
           :title="story.title"
           :author="story.author"
-          :thumbnail="`/stories/_${story.slug}/${story.thumbnail}`"
+          :thumbnail="`stories/_${story.slug}/${story.thumbnail}`"
           :url="story.slug"
         />
       </div>
