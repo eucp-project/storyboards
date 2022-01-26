@@ -1,7 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5905676.svg)](https://doi.org/10.5281/zenodo.5905676)
 [![Research Software Directory Badge](https://img.shields.io/badge/rsd-storyboards-00a3e3.svg)](https://www.research-software.nl/software/storyboards)
-
-
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=eucp-project_storyboards&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=eucp-project_storyboards)
 # Storyboards
 
 This repository contains the source code for the
