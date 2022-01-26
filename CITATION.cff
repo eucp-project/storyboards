@@ -1,0 +1,43 @@
+# YAML 1.2
+# More than one affiliation:
+# https://github.com/citation-file-format/citation-file-format/issues/268
+---
+title: EUCP Storyboard viewer
+keywords:
+  - climate
+  - EUCP
+repository-code: "https://github.com/eucp-project/storyboards"
+license: "Apache-2.0"
+message: "If you use this software, please cite it using these metadata."
+cff-version: "1.2.0"
+authors:
+  -
+    family-names: Kalverla
+    given-names: Peter
+    orcid: "https://orcid.org/0000-0002-5025-7862"
+    affiliation: "Netherlands eScience Center"
+  -
+    family-names: Alidoost
+    given-names: Fakhereh
+    orcid: "https://orcid.org/0000-0001-8407-6472"
+    affiliation: "Netherlands eScience Center"
+  -
+    family-names: Liu
+    given-names: Yang
+    orcid: "https://orcid.org/0000-0002-1966-8460"
+    affiliation: "Netherlands eScience Center"
+  -
+    family-names: Verhoeven
+    given-names: Stefan
+    orcid: "https://orcid.org/0000-0002-5821-2060"
+    affiliation: "Netherlands eScience Center"
+  -
+    family-names: Vreede
+    given-names: Barbara
+    orcid: "https://orcid.org/0000-0002-5023-4601"
+    affiliation: "Netherlands eScience Center"
+identifiers:
+  - type: doi
+    value: ''
+    description: The concept DOI of the work.
+...

@@ -6,7 +6,7 @@ export default {
   ssr: false,
   router: {
     base: '/storyboards/',
-    middleware: 'usecases-dynamic-routes'
+    middleware: 'storyboards-dynamic-routes'
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -47,12 +47,23 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '~plugins/remark-chapters',
     // https://go.nuxtjs.dev/content
     '@nuxt/content'
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {},
+  content: {
+    fullTextSearchFields: ['id', 'slug', 'title', 'author', 'thumbnail', 'category'],
+
+    dir: 'static/stories',
+    markdown: {
+      remarkPlugins: [
+        'remark-directive',
+        '~/plugins/remark-chapters.js'
+      ]
+    }
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

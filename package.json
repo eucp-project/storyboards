@@ -1,5 +1,5 @@
 {
-  "name": "usecases",
+  "name": "storyboards",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -13,7 +13,9 @@
   "dependencies": {
     "@nuxt/content": "^1.14.0",
     "core-js": "^3.15.1",
-    "nuxt": "^2.15.7"
+    "nuxt": "^2.15.7",
+    "remark-directive": "^1.0.1",
+    "remark-sectionize": "^1.1.1"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",
