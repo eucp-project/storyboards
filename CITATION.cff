@@ -38,6 +38,6 @@ authors:
     affiliation: "Netherlands eScience Center"
 identifiers:
   - type: doi
-    value: 'https://doi.org/10.5281/zenodo.5905676'
+    value: '10.5281/zenodo.5905676'
     description: The concept DOI of the work.
 ...
