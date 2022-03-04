@@ -13,7 +13,7 @@
     <!-- Chapter overview bar -->
     <div class="flex no-wrap text-left gap-2">
       <div v-for="(headline, idx) of headlines" :key="idx">
-        <div role="button" @click="toggleChapter(idx)" class="flex-grow bg-white rounded p-3 prose">
+        <div role="button" class="flex-grow bg-white rounded p-3 prose" @click="toggleChapter(idx)">
           {{ headline }}
         </div>
       </div>
@@ -25,8 +25,12 @@
         <img v-if="!chapter.props.image.endsWith('html')" :src="getContent(chapter.props.image)" class="object-contain w-auto h-full max-w-full max-h-full mx-auto">
         <iframe v-else :src="getContent(chapter.props.image)" frameborder="0" class="w-full h-full" />
       </div>
-      <div class="prose px-4 w-1/3 bg-white rounded overflow-auto">
-        <nuxt-content :document="chapter" />
+      <div class="p-4 w-1/3 bg-white rounded overflow-auto">
+        <nuxt-content :document="chapter" class="prose mb-6" />
+        <EditOnGitHub :target="gitHubURL()" />
+        <p class="prose italic">
+          For more information on editing stories, see <a href="https://blog.esciencecenter.nl/storyboards-for-science-communication-85e399e5c1b5" target="_blank">this blog post</a>.
+        </p>
       </div>
     </div>
   </div>
@@ -56,6 +60,9 @@ export default {
     },
     toggleChapter (i) {
       this.currentChapter = i
+    },
+    gitHubURL () {
+      return `https://github.com/eucp-project/storyboards/blob/main/static/stories/${this.story.slug}.md`
     }
   }
 }
