@@ -27,6 +27,7 @@
       </div>
       <div class="prose px-4 w-1/3 bg-white rounded overflow-auto">
         <nuxt-content :document="chapter" />
+        <button class="rounded bg-gray-200">Edit on GH</button>
       </div>
     </div>
   </div>
