@@ -16,10 +16,10 @@ insured damages.
 
 The animation depicts the evolution of the radar reflectivity of the event.
 
-![picture of flash flood event](stories/flood/Istedgade_skybrud_2011-07-02.jpg)
+![picture of flash flood event](https://commons.m.wikimedia.org/wiki/File:Istedgade_skybrud_2011-07-02.jpg)
 
 The image above is taken from
-[Wikimedia](https://commons.m.wikimedia.org/wiki/File:Istedgade_skybrud_2011-07-02.jpg#mw-jump-to-license)
+[Wikimedia](https://commons.m.wikimedia.org/wiki/File:Istedgade_skybrud_2011-07-02.jpg)
 where it is shared under a
 [CC-BY-SA](https://creativecommons.org/licenses/by-sa/2.0/deed.en).
 :::
