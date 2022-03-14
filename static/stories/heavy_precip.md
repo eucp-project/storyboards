@@ -2,8 +2,8 @@
 id: 12
 trl: medium
 category: EUCP data and products
-title: Representation and identification of 3 historic "Heavy Precipitation Events"
-author: S. Muller, et al., International Centre for Theoretical Physics (ICTP)
+title: Identification of historic "Heavy Precipitation Events" using a tracking algorithm
+author: S. K. Müller, et al., International Centre for Theoretical Physics (ICTP)
 thumbnail: "intro.png"
 ---
 
@@ -53,8 +53,8 @@ demonstrate the capability of convection-permitting resolutions and the
 usefulness of the tracker.
 :::
 
-:::Chapter{headline="Composite" image="composite.html"}
-## Interactive composit map
+:::Chapter{headline="Map of Events in Observations" image="composite.html"}
+## Interactive map of heavy precipitation events in observations
 
 We identify from a composite of convection-permitting observational datasets,
 covering France, Italy, Switzerland and Germany and the years 2001 to 2009,
@@ -149,7 +149,7 @@ May and June 2016 in Germany–Part 1: Meteorological background. Natural Hazard
 and Earth System Sciences, 16(12),
 2835-2850](https://doi.org/10.5194/nhess-16-2835-2016).
 
-Images of flash floods:
+Photos of flash floods:
 
 - [Gard](https://www.taimsalu.com/uzes/p-uzes/uzes-out/slides/pdg_flood-714.jpg)
 - [Carrara](https://it.wikipedia.org/wiki/Alluvione_di_Carrara_del_2003#/media/File:Carrione.jpg)
