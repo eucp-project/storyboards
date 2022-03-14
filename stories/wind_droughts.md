@@ -44,11 +44,9 @@ power, is used to characterize wind energy.
 The figure shows the changes in return periods and return values for 10 model
 ensembles in three different periods.
 
--> Previous:1971-2000
-
--> Current: 2000-2029
-
--> Future: 2041-2069
+* Previous:1971-2000
+* Current: 2000-2029
+* Future: 2041-2069
 
 **For Whole Europe**, the low wind energy winter becomes more frequent in the
 recent year and the increase will be continue in the future. During 2041-2070,
