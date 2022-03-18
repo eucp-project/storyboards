@@ -16,6 +16,9 @@ This study builds upon a set of readily available European scale hydrological
 simulations. The variation between the models provides insights on the influence
 of bias-correction, calibration and hydrological model selected.
 
+The project was conducted in a collaboration between project partners IIASA, ETH 
+Zürich, Deltares and end-user JRC.
+
 Three hydrological models were selected:
 
 1. **LISFLOOD** from JRC, the model is calibrated and the CORDEX data is
@@ -45,7 +48,10 @@ RCP8p5.
 - The LISFLOOD simulations match the observations (in black) best. This is a
   result of bias-correction and calibration
 - The similarity between CWatM and Wflow is larger. There is a wide spread
-  between the different ensemble members because no bias-correction was applied.
+  between the different ensemble members because no bias-correction was applied
+- Bias-correction does improve the historical simulated flows, in the last 
+  months of EUCP we are exploring whether it does not disturb the change
+  signal too much.
 :::
 
 :::Chapter{headline="Projected changes – minimum flows" image="panel_4.png"}
@@ -56,6 +62,8 @@ RCP8p5.
   (Ebro and Tanaro)
 - For the Central European basins the signal is mixed and the choice of
   hydrological model and RCM does influence the impact estimation.
+- The variation between models indicates the need to consider an ensemble of
+  models and to account for uncertainties following and adaptive approach.
 :::
 
 :::Chapter{headline="Performance-based weighting" image="panel_5.png"}
