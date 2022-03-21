@@ -16,7 +16,7 @@ This study builds upon a set of readily available European scale hydrological
 simulations. The variation between the models provides insights on the influence
 of bias-correction, calibration and hydrological model selected.
 
-The project was conducted in a collaboration between project partners IIASA, ETH 
+The project was conducted in a collaboration between project partners IIASA, ETH
 Zürich, Deltares and end-user JRC.
 
 Three hydrological models were selected:
@@ -49,12 +49,12 @@ RCP8p5.
   result of bias-correction and calibration
 - The similarity between CWatM and Wflow is larger. There is a wide spread
   between the different ensemble members because no bias-correction was applied
-- Bias-correction does improve the historical simulated flows, in the last 
+- Bias-correction does improve the historical simulated flows, in the last
   months of EUCP we are exploring whether it does not disturb the change
   signal too much.
 :::
 
-:::Chapter{headline="Projected changes – minimum flows" image="panel_4.png"}
+:::Chapter{headline="Projected changes - minimum flows" image="projected_changes.png"}
 - There are clear indications for decreases in minimum flow in Southern European
   basins and increases in Northern basins.
 - The consensus between the different hydrological models and climate models is
@@ -66,7 +66,7 @@ RCP8p5.
   models and to account for uncertainties following and adaptive approach.
 :::
 
-:::Chapter{headline="Performance-based weighting" image="panel_5.png"}
+:::Chapter{headline="Performance-based weighting" image="performance_weighting.png"}
 Performance based weighting is used to obtain a more robust change signal from
 the ensemble of future projections.
 
