@@ -20,8 +20,8 @@ thumbnail: overview.png
 :::Chapter{headline="Framework" image="mechanisms.png"}
 ## Framework for coastal land loss projections
 
-Global probabilistic sea level rise projections were used under the RCP 4.5 and
-RCP 8.5 scenarios. For RCP 8.5, a high-end RCP 8.5 scenario based on IPCC AR5
+Global probabilistic sea level rise (SLR) projections were used under the RCP 4.5 
+and RCP 8.5 scenarios. For RCP 8.5, a high-end RCP 8.5 scenario based on IPCC AR5
 but with a higher contribution from Antarctic and Greenland ice sheets was used.
 
 Two different maps of the location of sandy beaches and two different approaches
@@ -29,7 +29,11 @@ for their nearshore slopes are used to account for epistemic input data
 uncertainty.
 
 Shoreline retreat is projected in the feature at sandy beach locations on 1 km
-alongshore grid around the European coastline.
+alongshore grid around the European coastline using a simple equilibrium model 
+that can be computationally viable for the large spatial scale of this study. 
+Unfortunately, it is not possible to directly validate the model predictions, 
+since the observed SLR signal is not yet strong enough and the other processes 
+involved in coastal erosion can mask the SLR effects.
 
 Sandy beach land loss is calculated by aggregating the total shoreline retreat
 per NUTS3 region.
