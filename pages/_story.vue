@@ -30,12 +30,12 @@
       </div>
       <div class="w-2/3 bg-white rounded">
         <img v-if="!chapter.props.image.endsWith('html')" :src="getContent(chapter.props.image)" alt="story image" class="object-contain w-auto h-full max-w-full max-h-full mx-auto" @click="openBigImage">
-        <div v-show="showBigImage" v-if="!chapter.props.image.endsWith('html')" class="fixed top-0 right-0 bottom-0 left-0 flex justify-center bg-gray-900 bg-opacity-80" @click="closeBigImage">
-          <div class="fixed container mx-auto m-10 p-10 bg-white shadow-2xl inset-5 z-40" @click="closeBigImage">
+        <iframe v-else :src="getContent(chapter.props.image)" frameborder="0" class="w-full h-full" />
+        <div v-show="showBigImage" v-if="!chapter.props.image.endsWith('html')" class="fixed inset-0 flex bg-gray-900 bg-opacity-80" @click="closeBigImage">
+          <div class="fixed bg-white shadow-2xl inset-5 z-40 flex justify-center" @click="closeBigImage">
             <img :src="getContent(chapter.props.image)" alt="story image" class="w-auto h-full object-contain">
           </div>
         </div>
-        <iframe v-else :src="getContent(chapter.props.image)" frameborder="0" class="w-full h-full" />
       </div>
     </div>
   </div>
