@@ -20,20 +20,22 @@
     </div>
 
     <!-- Chapter image and description -->
-    <div v-for="(chapter, idx) in chapters" v-show="idx===currentChapter" :key="idx" class="flex gap-2 overflow-auto h-full">
-      <div class="w-2/3 bg-white rounded">
-        <img v-if="!chapter.props.image.endsWith('html')" :src="getContent(chapter.props.image)" class="object-contain w-auto h-full max-w-full max-h-full mx-auto" @click="openBigImage">
-        <div v-show="showBigImage" v-if="!chapter.props.image.endsWith('html')" class="fixed container mx-auto bg-white shadow-2xl inset-5 z-40" @click="closeBigImage">
-          <img :src="getContent(chapter.props.image)" class="w-auto h-full object-contain">
-        </div>
-        <iframe v-else :src="getContent(chapter.props.image)" frameborder="0" class="w-full h-full" />
-      </div>
+    <div v-for="(chapter, idx) in chapters" v-show="idx===currentChapter" :key="idx" class="flex flex-row-reverse justify-end gap-2 overflow-auto h-full">
       <div class="p-4 w-1/3 bg-white rounded overflow-auto">
         <nuxt-content :document="chapter" class="prose mb-6" />
         <EditOnGitHub :target="gitHubURL()" />
         <p class="prose italic">
           For more information on editing stories, see <a href="https://blog.esciencecenter.nl/storyboards-for-science-communication-85e399e5c1b5" target="_blank">this blog post</a>.
         </p>
+      </div>
+      <div class="w-2/3 bg-white rounded">
+        <img v-if="!chapter.props.image.endsWith('html')" :src="getContent(chapter.props.image)" class="object-contain w-auto h-full max-w-full max-h-full mx-auto" @click="openBigImage">
+        <div v-show="showBigImage" v-if="!chapter.props.image.endsWith('html')" class="fixed top-0 right-0 bottom-0 left-0 flex justify-center bg-gray-900 bg-opacity-80" @click="closeBigImage">
+          <div class="fixed container mx-auto m-10 p-10 bg-white shadow-2xl inset-5 z-40" @click="closeBigImage">
+            <img :src="getContent(chapter.props.image)" class="w-auto h-full object-contain">
+          </div>
+        </div>
+        <iframe v-else :src="getContent(chapter.props.image)" frameborder="0" class="w-full h-full" />
       </div>
     </div>
   </div>
