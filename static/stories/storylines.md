@@ -158,7 +158,7 @@ could come together in the future.
 In EUCP this work was performed in parallel. Now these examples and techniques
 have been developed, we can begin to think about how storylines, or related
 concepts, may form part of the climate data value chain in the future. Informing
-the production of information through to it's application in decision making and
+the production of information through its application in decision making and
 planning (see the flow chart on the left).
 
 :::
