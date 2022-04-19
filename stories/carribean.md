@@ -10,22 +10,19 @@ thumbnail: carribean.png
 :::chapter{headline=Introduction image=carribean.png}
 ## Caribbean
 
-Many of the regional climate simulations carried out as part of EUCP were
-situated over Europe. On explicit request by the EU, EUCP also conducted a
-limited number of simulations with very high resolution regional climate models
-for a number outer-European domains. One of the domains is the Caribbean, known
+The European regional-climate simulations form the heart of EUCP WP3. 
+On explicit request by the EU, EUCP conducted additional simulations
+for three "outer-European" domains. One of these is the Caribbean, known
 for its sunshine and sandy beaches, but also for devastating tropical cyclones,
-monster waves and coastal erosion.
+monster waves and coastal erosion. The two other domains are "Madeira and Canary Islands", and "La Réunion". 
+The latter two are not discussed in this presentation.
 
-## Convection permitting (CP) simulations
+## Convection-Permitting (CP) simulations
 
-The research question addressed here is what very high resolution CPM
-simulations could add to the story of climate change in the region, with a
-special interest in the wind and precipitation characteristics of tropical
-cyclones. Additionally, it could perhaps be used to apply methodology derived
-primarily for the European domains, to these other domains. Two other sets of
-outer-European CPM simulations were created within EUCP: one for Madeira, and
-one for the island of La Réunion. These are not discussed in this presentation.
+Tropical cyclones (TCs) are the main hazard in the region. 
+Resolving TC in a climate model requires high spatial resolution. 
+The research question is to investigate climate change in the region with a
+special interest in the wind and precipitation characteristics of TC. 
 :::
 
 :::Chapter{headline="Tropical cyclones variability", image="TCvariability.png"}
@@ -36,20 +33,19 @@ variability in the tracks of tropical cyclones. There is a large interannual
 variability with some years being relatively quiet and others very active.
 
 Because of finite resources, only a few hurricane seasons could be simulated.
-Therefore it made sense to attempt a pseudo-global warming approach, in which
+Therefore it made sense to attempt a Pseudo Global Warming approach, in which
 observed hurricane seasons are simulated twice: once with observed (ERA5)
 forcing at lateral boundaries, and a second time in which the same seasons are
 'futurized' by adding seasonally varying delta-fields obtained from
-climate-change experiments (subset of CMIP5).
+climate-change experiments (based on a subset of CMIP5).
 :::
 
 :::Chapter{headline="Literature" image="literature.png"}
 ## Existing literature
 
 Existing literature on the subject (CPM simulations of the domain) is not very
-abundant yet. The paper by Gutmann et al (2018) found that a Pseudo-Global
-Warming (PGW) approach gave satisfying results, with TC having faster maximum
-winds, slower storm translation, lower central pressures and higher
+abundant yet. The paper by Gutmann et al (2018) found that a PGW approach gave satisfying results, 
+with TC having faster maximum winds, slower storm translation, lower central pressures and higher
 precipitation rates. An important remark was that despite the PGW approach,
 there was surprisingly large variability between the storms, necessitating the
 creation of a large ensemble.
@@ -67,7 +63,7 @@ Important remark: changes varied substantially between individual storms, and
 not all storms were simulated in both simulations!
 :::
 
-:::Chapter{headline="Models and strategies" image="strategy.png"}
+:::Chapter{headline="Strategy" image="strategy.png"}
 ## Contributing groups/models
 Several groups signed up to contribute with CPM (and RCM) simulations.
 
@@ -93,7 +89,7 @@ cyclones. KNMI ran a third set of simulations using a uniform temperature
 increase.
 :::
 
-:::Chapter{headline="Top-10 list of seasons" image="top10.png"}
+:::Chapter{headline="Top-10 Seasons" image="top10.png"}
 ## Top-10 list
 The top-10 list of seasons was created on the basis of the IBTrACS database and
 a couple of criteria (see the title of the plot). The approximate internal
@@ -101,17 +97,15 @@ domain is shown, as well as the named hurricanes occurring in the top-10
 seasons.
 :::
 
-:::Chapter{headline="First results of Irma" image="irma.gif"}
+:::Chapter{headline="Evaluation: Irma" image="irma.gif"}
 ## First results
-First result is of Irma, the big tropical cyclone of 2017. Shown is the
-simulation of the hourly windfield. The black line is the observed track from
-the IBTrACS database. As you can see the TC is well resolved (clear eye
-formation) and follows the observed track rather accurately, making it quite
-suitable for impact studies in e.g. WP4. At the end of the simulation period,
+Shown is the simulation of the hourly windfield. The black line is the observed track from
+the IBTrACS database. The TC is well resolved (eye formation) and follows the observed track rather accurately, 
+making it suitable for impact studies in e.g. WP4. At the end of the simulation period,
 the next tropical cyclone (Jose) is just appearing.
 :::
 
-:::Chapter{headline="Poor man's tracking" image="tracking.png"}
+:::Chapter{headline="Wind extremes (REF)" image="tracking.png"}
 ## Poor man's tracking
 As a second example we count the number of hours with hurricane-force windspeeds
 in each of the models in the 2017 hurricane season. This could be considered as
@@ -125,7 +119,7 @@ approach. [SMHI and DMI are also the same model, but their resolutions differ].
 Track coherence seems weakest in GERICS (REMO-NH model).
 :::
 
-:::Chapter{headline="PGW perturbations" image="trackingPGW.png"}
+:::Chapter{headline="Wind extremes (PGW)" image="trackingPGW.png"}
 ## Poor man's tracking with PGW perturbations added
 In the second experiment, the same seasons were simulated with PGW perturbations
 added. Again we see considerable differences, although some of the major
