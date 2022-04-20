@@ -170,14 +170,10 @@ EUCP Caribbean CPM and RCM simulations:
 - Data is used by WP4 for storm-surge modelling.
 
 Preliminary results: 
-- The CPMs and RCMs are able to properly describe evolution of tropical cyclones. 
-However, even in the current climate (using ERA5 forcing) there is substantial spread between models. 
-A poor man’s tracking shows that not all tropical cyclones are reproduced in REF and PGW: 
-Optimal conditions in present-day climate not necessarily more favorable for development in the future
-climate.
-- Average precipitation and soft hourly extremes (99%) decrease over most of the domain (large model spread), 
-except over the land areas in the south. There is however substantial model spread. 
-The distribution of hourly precipitation field maxima over sea show clear increases. 
+- The CPMs and RCMs are able to properly describe evolution of tropical cyclones.  However, even in the current climate (using ERA5 forcing) there is substantial spread between models. 
+- A poor man’s tracking shows that not all tropical cyclones are reproduced in REF and PGW: Optimal conditions in present-day climate not necessarily more favorable for development in the future climate.
+- Average precipitation and soft hourly extremes (99%) decrease over most of the domain (large model spread), except over the land areas in the south. There is however substantial model spread. 
+- The distribution of hourly precipitation field maxima over sea show clear increases. 
 
 To do:
 - More extended analysis, including pooling of results.
