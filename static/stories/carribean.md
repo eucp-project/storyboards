@@ -132,14 +132,31 @@ years. Many storms weaken, some seem to intensify, and most display small
 changes in track location.
 :::
 
+:::Chapter{headline="Precipitation (REF)" image="precipmap_REF.png"}
+## Precipitation (Reference runs)
+There are large contrasts in precipitation amounts over the domain. 
+The observational estimate shows this clearly. The models are able to 
+reproduce this pattern, but there is substantial inter model spread. 
+The models tend to be dry-biased in the east. Especially RegCM4-7 and REMO-NH
+are very wet in the south-west of the domain.
+:::
+
+:::Chapter{headline="Precipitation (PGW)" image="precipmap_PGW.png"}
+## Precipitation change
+The 6-member ensemble is analysed for the future precipitation changes, computed as the
+relative difference between the PGW and REF runs. 
+Ensemble-mean changes of mean precipitation (left panel) and the soft extremes (99% of hourly values, right panel) are shown.
+Both feature a robust drying over most of the domain, with increases in the south of the domain. 
+It is expected that part of this drying is due changes in the large-scale forcing.
+:::
+
 :::Chapter{headline="Precipitation" image="precipitation.png"}
 ## Precipitation
-A first glance at the changes in precipitation can be obtained from histograms
-of the hourly spatial maximum of the precipitation field, aggregated over all
-hours and all years. By looking at the field-maximum we thus discard information
-on the size of events. Furthermore, only sea area is considered here.
+Finally we look at the changes in the hourly spatial maximum of the precipitation field (sea areas only), 
+aggregated over all hours and all years. By looking at the field-maximum information
+on the size and location of events is discarded.
 
-There are substantial differences between the models yet all show unmistakably a
+There are substantial differences between the models, yet all show unmistakably a
 tendency towards higher maxima in future. A more complete analysis of the
 distribution, that includes the size of events is in preparation.
 :::
@@ -147,21 +164,24 @@ distribution, that includes the size of events is in preparation.
 :::Chapter{headline="Conclusions" image="summary.png"}
 ## Summary and conclusions
 
-EUCP Caribbean CPM and RCM simulations: ERA5 + PGW, focus on Hurricane season.
-Top-10 seasons according to criteria. Includes 2017 (Irma). Data will be used by
-WP4 for eg., storm surge modelling.
+EUCP Caribbean CPM and RCM simulations: 
+- ERA5 + PGW, June-October (hurricanes).
+- Ten seasons were selected based on historic hurricane activity.
+- Data is used by WP4 for storm-surge modelling.
 
-Preliminary results: wind speed and precipitation. Robust increase in
-precipitation maxima, wind speed change less obvious. Poor man’s tracking: Not
-all tropical cyclones reproduced in REF and PGW: Optimal conditions in
-present-day climate not necessarily more favorable for development in future
-climate. Further analysis necessary.
+Preliminary results: 
+- The CPMs and RCMs are able to properly describe evolution of tropical cyclones. 
+However, even in the current climate (using ERA5 forcing) there is substantial spread between models. 
+A poor man’s tracking shows that not all tropical cyclones are reproduced in REF and PGW: 
+Optimal conditions in present-day climate not necessarily more favorable for development in the future
+climate.
+- Average precipitation and soft hourly extremes (99%) decrease over most of the domain (large model spread), 
+except over the land areas in the south. There is however substantial model spread. 
+The distribution of hourly precipitation field maxima over sea show clear increases. 
 
-Still to do:
+To do:
 - More extended analysis, including pooling of results.
-- Comparison to observations
-- Impact modelling by WP4: storm surges
-- Discussion of relevance of PGW versus GCM-forced.
+- A paper is in preparation.
 
 ## Reference
 
