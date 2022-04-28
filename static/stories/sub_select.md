@@ -27,7 +27,9 @@ with regional climate models.
 :::Chapter{headline="Process based assessment criteria" image="example_assessment.png"}
 ## Process based assessment criteria
 
-Method builds on the approach developed in McSweeney et al.,(2015, 2018)
+Method builds on the approach developed in McSweeney et
+al.,([2015]((https://doi.org/10.1007/s00382-014-2418-8)),
+[2018](https://digital.nmla.metoffice.gov.uk/IO_28f93601-3178-4c48-8621-fb4388ec66a1/))
 previously applied to CMIP5. Models are assessed on a range of regional
 criteria, including the circulation climatology, distribution of daily storm
 track position, the annual cycle of local precipitation and temperature in
@@ -88,7 +90,8 @@ offer smaller subsets (~5-7) which are still representative.​
 
 - Some models are closely related to each other due to shared components, the
   degree of interdependence is measured using the ClimWIP method for the
-  comparison of model independence (Brunner et al., 2020). ​
+  comparison of model independence ([Brunner et
+  al.,2020](https://doi.org/10.5194/esd-11-995-2020)). ​
 
 - Top left - shows the independence matrix for the different models, this was
   used to create clusters of models that had dependencies (see table below). ​
