@@ -107,7 +107,7 @@ offer smaller subsets (~5-7) which are still representative.​
 ## Example model sub-selection based on performance assessment and model independence.
 
 Example of model sub-selection for an ensemble of 5 -7 CMIP6 models (shown in
-blue) , as may be required for downscaling or hydrological assessments. ​
+blue), as may be required for downscaling or hydrological assessments. ​
 
 Figure (left), shows where the selected models lie within the range of future
 (2081-2100) temperature and precipitation projections (ssp585). ​
