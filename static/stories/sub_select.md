@@ -113,7 +113,7 @@ Figure (left), shows where the selected models lie within the range of future
 (2081-2100) temperature and precipitation projections (ssp585). ​
 
 Models found be inadequate for large-scale assessment criteria are shown in red.
-​
+
 Models are removed (due to being classed inadequate) throughout the projection
 range, but overall more models with a modest temperature response are removed. ​
 :::
