@@ -24,8 +24,8 @@ example hydrological models to explore flood impacts) or dynamical downscaling
 with regional climate models.
 :::
 
-:::Chapter{headline="Processed based assessment criteria" image="example_assessment.png"}
-## Processed based assessment criteria
+:::Chapter{headline="Process based assessment criteria" image="example_assessment.png"}
+## Process based assessment criteria
 
 Method builds on the approach developed in McSweeney et al.,(2015, 2018)
 previously applied to CMIP5. Models are assessed on a range of regional
