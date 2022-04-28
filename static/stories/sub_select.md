@@ -130,7 +130,7 @@ pick models with acceptable performance in the required criteria that capture
 the ensemble range. ​
 
 Alternatively, we also present a list of models that is a sub-selection of the
-CMIP6 ensemble that was found to be acceptable for the main European regions. ​
+CMIP6 ensemble that was found to be acceptable for the main European regions: ​
 
 - ACCESS-CM2​
 - BCC-CSM2-MR​
