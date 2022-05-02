@@ -2,7 +2,7 @@
 id: 20
 trl: high
 category: EUCP data and products
-title: Storylines for communicating climate information
+title: Storylines for producing and communicating climate information
 author: Christopher Goddard et al., UK Met Office
 thumbnail: "slide1.png"
 ---
