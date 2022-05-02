@@ -4,10 +4,10 @@ trl: high
 category: EUCP data and products
 title: Producing storylines of future hazards with the heritage sector
 author: Christopher Goddard et al., UK Met Office
-thumbnail: "panel6.png"
+thumbnail: "Slide13.PNG"
 ---
 
-:::Chapter{headline="Co-production of storylines for applications" image=panel2.png}
+:::Chapter{headline="Co-production of storylines for applications" image=Slide5.PNG}
 ## Co-production of storylines for applications
 Here we present the steps and outcomes which emerged when creating a draft
 climate storylines product for the heritage sector, in particular Historic
@@ -28,12 +28,12 @@ The key features to include and test during the process are:
 * A clear decision or planning context that the storylines will inform
 * Characterisation of events and future changes using physical drivers
 * Characterisation of the full range of uncertainty in the chosen hazard metrics
-* Reduction of the uncertainty range to what is ‘application relevant’
+* Reduction of the uncertainty range to what is 'application relevant'
 * Testing ways of providing this to the stakeholder
 
 :::
 
-:::Chapter{headline="Establishing the application context" image=panel3.png}
+:::Chapter{headline="Establishing the application context" image=Slide7.PNG}
 ## Establishing the application context
 The cultural and built heritage sector is clearly exposed to weather hazards
 which are evolving under climate change and is responsible for enabling the
@@ -56,7 +56,7 @@ of future hazards into planning and decision making.
 
 :::
 
-:::Chapter{headline="Focus-group/workshop participants" image=panel4.png}
+:::Chapter{headline="Focus-group/workshop participants" image=Slide9.PNG}
 ## Focus-group/workshop participants
 Alongside dialogue with the main stakeholder we also gathered feedback from
 heritage management professionals, academics or climate service providers
@@ -69,11 +69,10 @@ adding to the perspectives provided by HES. These included the hazards of
 interest, exposed heritage and current uses of climate information, as well as
 direct feedback on example storylines.
 
-
 :::
 
 
-:::Chapter{headline="Analysing the observations and projections" image=panel5.png}
+:::Chapter{headline="Analysing the observations and projections" image=Slide11.PNG}
 ## Analysing the observations and projections
 The analysis comprised of several steps using observations, reanalysis data and
 projections.
@@ -96,7 +95,7 @@ the future changes in context.
 
 :::
 
-:::Chapter{headline="Establishing the application relevance" image=panel6.png}
+:::Chapter{headline="Establishing the application relevance" image=Slide13.PNG}
 ## Establishing the application relevance
 
 **Information selection**: Since the relevant uncertainty needed to be established,
@@ -116,7 +115,7 @@ format and information, as well as more generally on the concept of storylines.
 
 :::
 
-:::Chapter{headline="User review of draft products" image=panel1.png}
+:::Chapter{headline="User review of draft products" image=Slide15.PNG}
 ## User review of draft products
 Here we show some quotes and key points we have determined during the
 stakeholder engagement process. These cover the format and content, inclusion of
