@@ -4,10 +4,10 @@ trl: high
 category: EUCP data and products
 title: Storylines for producing and communicating climate information
 author: Christopher Goddard et al., UK Met Office
-thumbnail: "slide1.png"
+thumbnail: "Slide1.PNG"
 ---
 
-:::Chapter{headline="Storylines in EUCP" image=slide1.png}
+:::Chapter{headline="Storylines in EUCP" image=Slide1.PNG}
 ## Storylines in EUCP
 
 Storylines or narrative approaches to constructing and communicating climate
@@ -35,7 +35,7 @@ weighting and constraining projections.
 
 :::
 
-:::Chapter{headline="End-to-end storylines for applications" image=slide2.png}
+:::Chapter{headline="End-to-end storylines for applications" image=Slide2.PNG}
 ## End-to-end storylines for applications
 Two case studies were performed where storylines-related information and
 products were produced for two sectors in the UK: the heritage management sector
@@ -69,7 +69,7 @@ were:
 
 :::
 
-:::Chapter{headline="Scientific building blocks" image=slide3.png}
+:::Chapter{headline="Scientific building blocks" image=Slide3.PNG}
 ## Scientific building blocks
 
 The images represent some of the scientific building blocks of storylines which
@@ -102,7 +102,7 @@ More information on two examples:
 
 :::
 
-:::Chapter{headline="Lines of evidence tool" image=slide4.png}
+:::Chapter{headline="Lines of evidence tool" image=Slide4.PNG}
 ## Lines of evidence tool
 On the left example output from the lines of evidence assessment tool is shown.
 This provides a summary of information from a range of projections and methods.
@@ -130,7 +130,7 @@ More information: [storyboard on lines of evidence](../evidence)
 
 :::
 
-:::Chapter{headline="Findings 1" image=slide5.png}
+:::Chapter{headline="Findings 1" image=Slide5.PNG}
 ## What are climate storylines and where are they useful?
 
 The key points on the left were largely drawn from the two examples of
@@ -144,7 +144,7 @@ the emerging science have demonstrated their usefulness.
 
 :::
 
-:::Chapter{headline="Findings 2" image=slide6.png}
+:::Chapter{headline="Findings 2" image=Slide6.PNG}
 ## How could storylines bring together various output and products of EUCP science?
 
 The key points on the left were largely drawn from work across EUCP which was
@@ -161,7 +161,7 @@ making and planning (see the flow chart on the left).
 
 :::
 
-:::Chapter{headline="Findings 3" image=slide7.png}
+:::Chapter{headline="Findings 3" image=Slide7.PNG}
 ## What are the challenges of producing storylines as a service?
 The application examples as well as the scientific outcomes all highlighted
 challenges to the upscaling of these activities.
