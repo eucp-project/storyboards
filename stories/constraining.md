@@ -95,17 +95,19 @@ it addresses the part of the uncertainty derived from internal variability.
 
 ## Main results
 
-- Providing improved climate estimates of the near future: the Best10
-  projections are improved in comparison to UNINIT40 under certain
-  circumstances, as for instance when the skill measures calculated for the
-  20-year hindcasts indicate improved skill in Best10 compared to UNINIT40 and
-  the projected changes for the next 20 years differ between Best10 and
-  UNINIT40. This latter criterion indicates that the constraint leads to
-  modified estimates of near-term climate change.
+Providing improved climate estimates of the near future: the Best10 projections
+are improved in comparison to UNINIT40 under certain circumstances, as for
+instance when the skill measures calculated for the 20-year hindcasts indicate
+improved skill in Best10 compared to UNINIT40 and the projected changes for the
+next 20 years differ between Best10 and UNINIT40. This latter criterion
+indicates that the constraint leads to modified estimates of near-term climate
+change.
 
-The figure shows how the distribution functions get narrower and emphasises more
-the larger values with the constrained ensemble (red lines) versus the
-unconstrained ensemble (blue lines).
+SPNA=sub-polar North Atlantic, SAH=Sahel, WAS=Western Asia, SAS=Southern Asia.
+
+The figure shows how the distribution functions in these regions get narrower
+and emphasises more the larger values with the constrained ensemble (red lines)
+versus the unconstrained ensemble (blue lines).
 
 :::
 
