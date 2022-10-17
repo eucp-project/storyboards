@@ -3,11 +3,13 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=eucp-project_storyboards&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=eucp-project_storyboards)
 [![fair-software.eu](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8B-yellow)](https://fair-software.eu)
 
-# Storyboards
+# Essentials for Software Support
 
-This repository contains the source code for the
-[EUCP](https://www.eucp-project.eu/) [Storyboard
-website](https://eucp-project.github.io/storyboards/).
+On this repository, we are developing material for the course "Essentials for
+Research Software Support".
+
+The infrastructure is based on the
+[storyboards](https://www.research-software.nl/software/storyboards) project.
 
 The website has been built with [Nuxt](https://nuxtjs.org), using
 [nuxt-content](https://content.nuxtjs.org/) for authoring stories and
