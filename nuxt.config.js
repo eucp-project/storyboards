@@ -5,7 +5,7 @@ export default {
   target: 'static',
   ssr: false,
   router: {
-    base: '/storyboards/',
+    base: '/software-support-essentials/',
     middleware: 'storyboards-dynamic-routes'
   },
 
