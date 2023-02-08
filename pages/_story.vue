@@ -37,6 +37,9 @@
           </div>
         </div>
       </div>
+      <div v-else>
+        <p> No image found for this chapter. Does the chapter tag for this story have an image key? e.g. :::Chapter{headline="Name of my chapter" image="chapimg.png"} </p>
+      </div>
     </div>
   </div>
 </template>
