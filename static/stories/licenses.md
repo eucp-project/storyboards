@@ -4,7 +4,7 @@ trl: high
 category: Getting started
 title: Licenses
 author: eScience Center
-thumbnail: "ghlogo.png"
+thumbnail: "nlesc-dummy-1.png"
 ---
 
 :::Chapter{headline="Software licenses" image="ghlogo.png"}
