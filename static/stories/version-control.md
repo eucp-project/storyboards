@@ -13,8 +13,11 @@ Why version control is needed, and what systems exist
 
 distributed VC
 
+:::
+
 :::Chapter{headline=Remote repositories}
 ## Remote repositories
 
 Gitlab, github, bitbucket
 
+:::
