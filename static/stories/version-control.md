@@ -4,7 +4,7 @@ trl: high
 category: Getting started
 title: Version control, git and github
 author: eScience Center
-thumbnail: "ghlogo.png"
+thumbnail: "nlesc-dummy-5.png"
 ---
 
 :::Chapter{headline="Version control" image="ghlogo.png"}

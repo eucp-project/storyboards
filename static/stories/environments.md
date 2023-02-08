@@ -4,7 +4,7 @@ trl: medium
 category: Resources
 title: Environments & Containers
 author: eScience Center
-thumbnail: "ghlogo.png"
+thumbnail: "nlesc-dummy-1.png"
 ---
 
 :::Chapter{headline="Environments" image="ghlogo.png"}

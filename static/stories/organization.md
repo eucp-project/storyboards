@@ -4,7 +4,7 @@ trl: high
 category: Getting started
 title: Project organization
 author: eScience Center
-thumbnail: "ghlogo.png"
+thumbnail: "nlesc-dummy-2.png"
 ---
 
 :::Chapter{headline="Project organization" image="ghlogo.png"}

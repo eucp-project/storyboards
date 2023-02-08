@@ -4,7 +4,7 @@ trl: medium
 category: Resources
 title: HPC
 author: eScience Center
-thumbnail: "ghlogo.png"
+thumbnail: "nlesc-dummy-2.png"
 ---
 
 :::Chapter{headline="High Performance Cluster" image="ghlogo.png"}

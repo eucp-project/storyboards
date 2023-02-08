@@ -4,7 +4,7 @@ trl: medium
 category: Software Quality
 title: Documentation
 author: eScience Center
-thumbnail: "ghlogo.png"
+thumbnail: "nlesc-dummy-5.png"
 ---
 
 :::Chapter{headline="Documentation" image="ghlogo.png"}

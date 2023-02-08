@@ -4,7 +4,7 @@ trl: medium
 category: Resources
 title: Testing & CI/CD
 author: eScience Center
-thumbnail: "ghlogo.png"
+thumbnail: "nlesc-dummy-5.png"
 ---
 
 :::Chapter{headline="Testing" image="ghlogo.png"}
