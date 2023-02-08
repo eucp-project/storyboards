@@ -1,13 +1,13 @@
 ---
-id: 3
-trl: medium
+id: 7
+trl: high
 category: Getting started
 title: Project organization
 author: eScience Center
 thumbnail: "ghlogo.png"
 ---
 
-:::Chapter{headline=Project organization}
+:::Chapter{headline="Project organization" image="ghlogo.png"}
 ## Project organization
 Different project organization structures
 
@@ -15,7 +15,7 @@ e.g. data science, software package; also use of sourced subpackages
 
 :::
 
-:::Chapter{headline=Software packages}
+:::Chapter{headline="Software packages" image="ghlogo.png"}
 ## Software packages
 
 Packaging software requires specific structures

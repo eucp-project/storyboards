@@ -1,13 +1,13 @@
 ---
-id: 1
-trl: medium
+id: 5
+trl: high
 category: Getting started
 title: Licenses
 author: eScience Center
 thumbnail: "ghlogo.png"
 ---
 
-:::Chapter{headline=Software licenses}
+:::Chapter{headline="Software licenses" image="ghlogo.png"}
 ## Software licenses
 
 FOSS
