@@ -4,7 +4,7 @@
     <div class="flex gap-10 m-2 items-center">
       <img src="eucp_logo.png" alt="EUCP Logo">
       <h1 class="text-2xl">
-        Overview of EUCP Storyboards
+        Essentials for Software Support
       </h1>
     </div>
 
