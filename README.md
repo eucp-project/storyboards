@@ -99,6 +99,9 @@ the repository:
 # install dependencies
 $ npm install
 
+# Enable legacy OpenSSL provider (needed for node.js > version 16.x)
+$ export NODE_OPTIONS=--openssl-legacy-provider
+
 # serve with hot reload at localhost:3000
 $ npm run dev
 
