@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <!-- Chapter image and description -->
+    <!-- Chapter description -->
     <div v-for="(chapter, idx) in chapters" v-show="idx===currentChapter" :key="idx" class="flex flex-row-reverse justify-end gap-2 overflow-auto h-full">
       <div class="p-4 w-1/3 bg-white rounded overflow-auto">
         <nuxt-content :document="chapter" class="prose mb-6" />
@@ -28,7 +28,9 @@
           For more information on editing stories, see <a href="https://blog.esciencecenter.nl/storyboards-for-science-communication-85e399e5c1b5" target="_blank">this blog post</a>.
         </p>
       </div>
-      <div class="w-2/3 bg-white rounded">
+      <!-- Chapter media -->
+      <!-- Image options -->
+      <div v-if="chapter.props.image" class="w-2/3 bg-white rounded">
         <img v-if="!chapter.props.image.endsWith('html')" :src="getContent(chapter.props.image)" alt="story image" class="object-contain w-auto h-full max-w-full max-h-full mx-auto" @click="openBigImage">
         <iframe v-else :src="getContent(chapter.props.image)" frameborder="0" class="w-full h-full" />
         <div v-show="showBigImage" v-if="!chapter.props.image.endsWith('html')" class="fixed inset-0 flex bg-gray-900 bg-opacity-80" @click="closeBigImage">
@@ -36,6 +38,18 @@
             <img :src="getContent(chapter.props.image)" alt="story image" class="w-auto h-full object-contain">
           </div>
         </div>
+      </div>
+      <!-- Video from youtube -->
+      <div v-else-if="chapter.props.video" class="w-2/3 bg-white rounded">
+        <iframe class="object-contain w-full h-full max-w-full max-h-full mx-auto" v-bind:src="'https://www.youtube.com/embed/' + chapter.props.video" title="YouTube video player" frameborder="0"></iframe>
+      </div>
+      <!-- Website (for example a hosted reveal.js presentation) -->
+      <div v-else-if="chapter.props.website" class="w-2/3 bg-white rounded">
+        <iframe class="object-contain w-full h-full max-w-full max-h-full mx-auto" v-bind:src="chapter.props.website" title="Website, for example a hosted reveal.js presentation" frameborder="0"></iframe>
+      </div>
+      <!-- Other options give an error -->
+      <div v-else class="object-contain w-full h-full max-w-full max-h-full mx-auto">
+        No valid media type was specified!
       </div>
     </div>
   </div>
